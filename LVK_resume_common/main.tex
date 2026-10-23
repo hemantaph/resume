@@ -1,0 +1,475 @@
+\documentclass[margin,line]{res}
+
+\usepackage{xcolor}
+
+% ============================================================
+% Colour palette
+% ============================================================
+% Restrained academic palette on a white background.
+%
+% resumeText    : main body text
+% resumeName    : name at top of CV
+% resumeHeading : section headings in left column
+% resumeLink    : all clickable hyperlinks
+% resumeBullet  : bullet points
+% resumeRule    : horizontal rule below the name
+%
+% The palette intentionally uses:
+%   blue       -> identity and document structure
+%   violet     -> interactive/clickable content
+%   blue-grey  -> non-semantic structural divider
+% ============================================================
+
+\definecolor{resumePaper}{HTML}{FFFFFF}
+\definecolor{resumeText}{HTML}{333333}
+
+% Main identity colour
+\definecolor{resumeName}{HTML}{315B8A}
+
+% Slightly softer/desaturated blue for section headings
+\definecolor{resumeHeading}{HTML}{486D8C}
+
+% Muted violet for links
+\definecolor{resumeLink}{HTML}{5B4F7A}
+
+% Use the structural blue for bullets rather than introducing red
+\definecolor{resumeBullet}{HTML}{486D8C}
+
+% Very light blue-grey for horizontal rules
+\definecolor{resumeRule}{HTML}{B7C4CF}
+
+% Apply paper and body-text colours globally
+\AtBeginDocument{%
+    \pagecolor{resumePaper}%
+    \color{resumeText}%
+}
+
+
+% ============================================================
+% Hyperlinks
+% ============================================================
+
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=resumeLink,
+    citecolor=resumeLink,
+    filecolor=resumeLink,
+    urlcolor=resumeLink
+}
+
+\usepackage{url}
+\usepackage{longtable}
+
+
+% ============================================================
+% Resume styling
+% ============================================================
+
+% Name at the top
+\renewcommand{\namefont}{%
+    \large\bfseries\color{resumeName}%
+}
+
+% Section headings in the left column
+\renewcommand{\sectionfont}{%
+    \bfseries\leavevmode\color{resumeHeading}%
+}
+
+% Main item bullets
+\renewcommand{\labelitemi}{%
+    \textcolor{resumeBullet}{$\bullet$}%
+}
+
+% Horizontal rule below the name
+\renewcommand{\fullline}{%
+    \nointerlineskip
+    \moveleft\hoffset\vbox{%
+        \color{resumeRule}%
+        \hrule width\textwidth
+    }%
+    \nointerlineskip
+}
+
+% Keep this because it may be used manually elsewhere in the CV
+\newcommand{\red}[1]{{\color{red}#1}}
+
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+\topmargin=0in
+\topskip=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+
+\begin{document}
+
+\name{\LARGE Phurailatpam Hemantakumar} \hfill {}
+
+\begin{resume}
+
+\section{\sc Contact Information}
+
+\vspace{.05in}
+\begin{tabular}{@{}p{3.5in}p{2.2in}}
+{\bf Date of Birth:} 29 April 1995 & {\bf Place of Birth:} Imphal, Manipur, India \\ \\
+% {\bf Gender:} Male & \\ \\
+{\bf Current Address:} 39NC, Tower 1 Phase 3, Festival City, Tai Wai, Hong Kong & {\bf Phone:} +852 98678178 \\ \\
+{\bf Email:} hemantaph@link.cuhk.edu.hk & { \bf Website:} \href{http://hemantaph.com/}{link}
+\end{tabular}
+
+%\section{\sc Research Interests}
+
+\vspace{.25in}
+\section{\sc Education}
+{\bf The Chinese University of Hong Kong (CUHK)}, Shatin, Hong Kong \hfill Aug 2020 -- Aug 2026 \\
+%\vspace*{-.1in}
+{\bf PhD in Physics}
+
+{\bf Indian Institute of Technology Bombay (IITB)}, Mumbai, India \hfill Jul 2016 -- May 2018\\
+%\vspace*{-.1in}
+{\bf M.Sc. in Physics} \hfill(CPI 6.93/10.0)
+
+{\bf Hindu College, University of Delhi}, Delhi, India \hfill Jul 2012 -- May 2015\\
+{\bf B.Sc. (Hons.) in Physics} \hfill(Percentage 84.70 \%)
+
+{\bf Central Board of Secondary Education},\\ SBOA School and Jr. College, Chennai, Tamil Nadu, India \hfill 2010 -- 2012 \\
+{\bf Higher Secondary (Class XII)} \hfill (Percentage 94.2 \%)
+
+{\bf Central Board of Secondary Education},\\ Sainik School Imphal, Imphal-East, Manipur, India \hfill 2010 \\
+{\bf Matriculation} \hfill (CPI 9.2/10.0)
+
+\vspace{.2in}
+\section{\sc Research Interests and Future Directions}
+
+\begin{itemize}
+    \item {\bf Gravitational-wave strong-lensing statistics:}
+    One of my major research interests is the strong gravitational lensing of gravitational waves. Strong lensing can magnify high-redshift compact-binary mergers that may otherwise fall below the detection threshold, produce multiple observations of the same source, and provide probes of compact-binary populations, intervening galaxies, and cosmology. Realising this potential requires accurate lensing statistics because both strong-lensing selection and detector selection shape the observable lensed population and directly enter the interpretation of candidate events. To address this, we developed \texttt{ler}, a publicly available Monte Carlo framework for simulating detectable lensed and unlensed GW populations and event rates (\href{https://ler.hemantaph.com/}{documentation}; \href{https://arxiv.org/abs/2407.07526}{Phurailatpam et al., 2026}), and \texttt{gwsnr} for calculating the probability of detection of simulated events (\href{https://gwsnr.hemantaph.com/}{documentation}; \href{https://arxiv.org/abs/2412.09888}{Phurailatpam and Hannuksela, 2024}). My work focuses on consistently modelling the source, lens, and image populations conditioned on strong lensing and detector selection. These statistics have been applied to O3 lensing-candidate validation~\href{https://arxiv.org/abs/2306.03827}{(Janquart et al., 2023)}, searches for subthreshold lensed counterparts~\href{https://arxiv.org/abs/2403.16532}{(Ng et al., 2025)}, and the rate and time-delay terms entering Bayesian lensing posterior odds~\href{https://arxiv.org/abs/2510.15463}{(Hannuksela et al., 2026)}. More recently, I implemented a framework in \texttt{ler} to study the dependence of predicted rates on astrophysical population hyperparameters and to propagate both hyperparameter and finite-sampling statistical uncertainties into the rate calculation. Further analysis and publication of this methodology are part of my current work. A natural next step is to quantify how source and lens population model choices, their hyperparameter uncertainties, and numerical uncertainties propagate into the population terms entering posterior-odds calculations, enabling more reliable Bayesian hypothesis testing of GW lensing candidates.
+
+    My LVK pledges recorded in GRASP cover project leadership, development, testing, and user support for \texttt{ler} and \texttt{gwsnr}, including ISR-weighted \texttt{ler} development towards GWTC-7. \texttt{ler} is a community effort, actively used by professors, postdoctoral researchers, and graduate and undergraduate students. These commitments support my continued contribution to LVK gravitational-lensing analyses.
+
+    \item {\bf Multi-messenger astronomy:}
+    Another research interest is the extension of these statistical methods, including Bayesian hypothesis testing, to multi-messenger observations, particularly strongly lensed short gamma-ray bursts (GRBs) and their binary-neutron-star GW counterparts. Short GRBs can be detected to substantially larger distances than current BNS GW observations when their relativistic jets are favourably oriented, making them promising systems for identifying strong lensing and for triggering targeted searches for otherwise subthreshold GW counterparts. In More and Phurailatpam (2025), we used \texttt{ler} and \texttt{gwsnr} to forecast the detectability of lensed GW counterparts to lensed GRBs and of GRB counterparts to lensed GW systems~\href{https://arxiv.org/abs/2502.02536}{(More and Phurailatpam, 2025)}. My current work extends this from population forecasts to candidate-level inference by developing Bayesian posterior-odds calculations for testing whether multiple GRBs are consistent with lensed images of the same source, initially using sky localisation and observed time delays. A subsequent step is to incorporate GRB light-curve information within the same Bayesian framework. In the longer term, joint lensed GW and EM observations can provide complementary constraints on the source and lens. This will enable applications such as time-delay cosmography and studies of lens structure and dark matter, where careful treatment of lens models, population assumptions, and their uncertainties will be important.
+
+    \item {\bf Eccentric waveform development and implementation:}
+    One of my primary research interests is the development and application of eccentric gravitational-wave waveforms. Residual eccentricity can probe compact-binary formation and evolution, while long inspiral signals can accumulate small eccentric corrections in their phase, making accurate and efficient waveform modelling important for parameter estimation. In our recent work~\href{https://arxiv.org/abs/2508.12697}{(Phurailatpam et al., 2026)}, we developed and implemented \texttt{TaylorF2Ecck} in \texttt{LALSuite}, an analytical frequency-domain inspiral approximant for nonspinning, low-eccentricity compact binaries ($e_0<0.1$, defined at $20~\mathrm{Hz}$). Our inspiral approximant extends the \texttt{TaylorF2} inspiral approximant for nonspinning compact binaries by consistently including all leading-order $e_0$ contributions that arise from orbital, periastron advance, and GW emission effects, with these contributions included in the phase up to 3PN order and in quadrupolar-order amplitude. Bayesian analyses of GW170817 and GW190425 found no evidence for measurable eccentricity or for detectable periastron-advance and additional-harmonic effects, while injection studies established the regimes in which these effects become distinguishable. We also found that insufficient PN phasing accuracy can bias the mass-ratio posterior, motivating eccentric phasing to at least 3.5PN order. Future waveform development will include higher-order eccentric corrections through $\mathcal{O}(e_0^6)$, 1PN amplitudes, eccentric phasing through at least 3.5PN order, and spin effects, with the longer-term aim of extending the model through merger and ringdown.
+
+    In another work, in collaboration with Lalit Pathak and Achamveedu Gopakumar, we investigated line-of-sight acceleration (LOSA) induced by a massive companion and residual orbital eccentricity in GW190814. Using 32 seconds of data and the \texttt{IMRPhenomXPHM} waveform augmented with leading-order LOSA and eccentricity corrections, we found a strong degeneracy between their effects on the inspiral phase, but no significant Bayesian evidence for either effect relative to the baseline model~\href{https://arxiv.org/abs/2605.21955}{(Pathak et al., 2026)}. A related direction is to extend the joint eccentricity and LOSA analysis using higher-order eccentric corrections and a more general time-dependent redshift treatment of source acceleration, such as the framework of \href{https://arxiv.org/abs/2604.00253}{Zhao et al. (2026)}, testing these effects across a broader set of GW events.
+\end{itemize}
+
+\newpage
+\section{\sc Publications}
+\begingroup
+\setlength{\parskip}{8pt}
+
+% Newest first: first online publication date; first arXiv posting for preprints.
+% Journal issue dates may differ from the dates in the right-hand column.
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    H. Phurailatpam et al., \textit{Constraining initial orbital eccentricity of inspiral-dominated gravitational-wave events with an analytic approximant}, Phys. Rev. D \textbf{114}(6), 063003 (2026). DOI: \href{https://doi.org/10.1103/94fx-wnjx}{10.1103/94fx-wnjx}; \href{https://arxiv.org/abs/2508.12697}{arXiv:2508.12697}. & \raggedright Sep 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    H. Phurailatpam et al., \textit{ler: LVK (LIGO-Virgo-KAGRA collaboration) event (compact-binary mergers) rate calculator and simulator}, Journal of Open Source Software \textbf{11}(124), 7420 (2026). DOI: \href{https://doi.org/10.21105/joss.07420}{10.21105/joss.07420}; \href{https://arxiv.org/abs/2407.07526}{arXiv:2407.07526}. & \raggedright Aug 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    L. Pathak, H. Phurailatpam, and A. Gopakumar, \textit{On the Presence of a Tertiary Compact Object in GW190814}, arXiv preprint (2026). DOI: \href{https://doi.org/10.48550/arXiv.2605.21955}{10.48550/arXiv.2605.21955}; \href{https://arxiv.org/abs/2605.21955}{arXiv:2605.21955}. & \raggedright May 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    O. A. Hannuksela et al., \textit{Strong Gravitational-wave Lensing Posterior Odds}, The Astrophysical Journal \textbf{1002}(1), 42 (2026). DOI: \href{https://doi.org/10.3847/1538-4357/ae5816}{10.3847/1538-4357/ae5816}; \href{https://arxiv.org/abs/2510.15463}{arXiv:2510.15463}. & \raggedright Apr 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    L. C. Y. Ng et al., \textit{Uncovering faint lensed gravitational-wave signals and reprioritizing their follow-up analysis using galaxy lensing forecasts with detected counterparts}, Monthly Notices of the Royal Astronomical Society \textbf{540}(4), 2937--2951 (2025). DOI: \href{https://doi.org/10.1093/mnras/staf874}{10.1093/mnras/staf874}; \href{https://arxiv.org/abs/2403.16532}{arXiv:2403.16532}. & \raggedright May 2025
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    A. More and H. Phurailatpam, \textit{Gravitational lensing: towards combining the multi-messengers}, Phil. Trans. R. Soc. A \textbf{383}(2295), 20240127 (2025). DOI: \href{https://doi.org/10.1098/rsta.2024.0127}{10.1098/rsta.2024.0127}; \href{https://arxiv.org/abs/2502.02536}{arXiv:2502.02536}. & \raggedright May 2025
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    L. E. Uronen et al., \textit{Finding black holes: an unconventional multi-messenger}, Phil. Trans. R. Soc. A \textbf{383}(2294), 20240152 (2025). DOI: \href{https://doi.org/10.1098/rsta.2024.0152}{10.1098/rsta.2024.0152}; \href{https://arxiv.org/abs/2406.14257}{arXiv:2406.14257}. & \raggedright Apr 2025
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    J. Janquart et al., \textit{What is the nature of GW230529? An exploration of the gravitational lensing hypothesis}, Monthly Notices of the Royal Astronomical Society \textbf{537}(2), 1001--1014 (2025). DOI: \href{https://doi.org/10.1093/mnras/staf049}{10.1093/mnras/staf049}; \href{https://arxiv.org/abs/2409.07298}{arXiv:2409.07298}. & \raggedright Jan 2025
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    H. Phurailatpam and O. A. Hannuksela, \textit{gwsnr: A Python package for efficient signal-to-noise ratio calculations of gravitational waves}, arXiv preprint (2024). DOI: \href{https://doi.org/10.48550/arXiv.2412.09888}{10.48550/arXiv.2412.09888}; \href{https://arxiv.org/abs/2412.09888}{arXiv:2412.09888}. & \raggedright Dec 2024
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    I. Gupta et al., \textit{Characterizing gravitational wave detector networks: from A$^\sharp$ to cosmic explorer}, Classical and Quantum Gravity \textbf{41}(24), 245001 (2024). DOI: \href{https://doi.org/10.1088/1361-6382/ad7b99}{10.1088/1361-6382/ad7b99}; \href{https://arxiv.org/abs/2307.10421}{arXiv:2307.10421}. & \raggedright Nov 2024
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    J. Janquart et al., \textit{Follow-up analyses to the O3 LIGO--Virgo--KAGRA lensing searches}, Monthly Notices of the Royal Astronomical Society \textbf{526}(3), 3832--3860 (2023). DOI: \href{https://doi.org/10.1093/mnras/stad2909}{10.1093/mnras/stad2909}; \href{https://arxiv.org/abs/2306.03827}{arXiv:2306.03827}. & \raggedright Sep 2023
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    M. Evans et al., \textit{Cosmic Explorer: A Submission to the NSF MPSAC ngGW Subcommittee}, White paper (2023). DOI: \href{https://doi.org/10.48550/arXiv.2306.13745}{10.48550/arXiv.2306.13745}; \href{https://arxiv.org/abs/2306.13745}{arXiv:2306.13745}. & \raggedright Jun 2023
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    S. Tiwari et al., \textit{Ready-to-use Fourier domain templates for compact binaries inspiraling along moderately eccentric orbits}, Phys. Rev. D \textbf{99}(12), 124008 (2019). DOI: \href{https://doi.org/10.1103/PhysRevD.99.124008}{10.1103/PhysRevD.99.124008}; \href{https://arxiv.org/abs/1905.07956}{arXiv:1905.07956}. & \raggedright Jun 2019
+\end{tabular}
+
+% IJERT lists DOI 10.17577/IJERTCONV3IS23023, but doi.org returns 404.
+% Use the working publisher link; the proceedings year is 2015, first online 24 Apr 2018.
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    Bhuvnesh and H. Phurailatpam, \textit{Measurement of Time Period of A Simple Pendulum using an Electronic Circuit}, IJERT, NCETRASECT--2015, Vol.~3, Issue~23 (2015 proceedings; first published online in 2018). \href{https://www.ijert.org/measurement-of-time-period-of-a-simple-pendulum-using-an-electronic-circuit}{[Publisher]}. & \raggedright Apr 2018
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    H. Phurailatpam, \textit{In the Realm of Bose: The Diary of a Teenager's Brief Sojourn at Bose Institute}, Bose Institute, Kolkata, India (2012), ISBN 978-93-83170-03-6. \href{https://jcbose.ac.in/publication}{[Publisher]}. & \raggedright Nov 2012
+\end{tabular}
+
+\par\endgroup
+\newpage
+\section{\sc Teaching and Research Mentoring}
+
+During my PhD, I served as a teaching assistant for several undergraduate courses, including \textbf{General Physics for Engineers} (2020), \textbf{Astronomy} (2020--2022), and \textbf{Engineering Physics: Mechanics and Thermodynamics} (2021).
+
+I have actively engaged in mentoring undergraduate, M.Sc., and early-stage PhD students, focusing on gravitational waves, cosmology, and the statistical analysis of lensed gravitational waves. Highlights of my mentorship include:
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+\textbf{Jiyun Park:} Mentoring a PhD student from Ewha Womans University, Korea, on an ongoing project to calculate BBH merger-rate densities informed by the star formation rate (SFR) and predict gravitational-wave lensing rates. & \raggedright Oct 2026 -- present
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+\textbf{Jihwan Park:} Mentored and supervised an M.Sc. student from Ewha Womans University, Korea, on a project on data-driven prediction of gravitational-wave lensing rates. & \raggedright Jan--May 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+\textbf{Lisa (Yiwei Li):} Supervised during CUHK's Summer Undergraduate Research Internship Programme (SURIP). Lisa contributed to re-evaluating statistics and updating the documentation for the \href{https://ler.readthedocs.io/en/latest/}{\texttt{ler}} package, and assisted in ongoing research on strong lensing of GWs by galaxy clusters. & \raggedright May--Jun 2024
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+\textbf{Brian Hiu Yeung Cheng:} Mentored through CUHK's SURE programme. & \raggedright Apr--Jun 2024
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+\textbf{Laura E. Uronen:} Provided guidance during the first semester of her PhD. Co-authored a paper published in 2025 (\href{https://arxiv.org/abs/2406.14257}{link}). & \raggedright Aug--Oct 2023
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+\textbf{Leo C. Y. Ng:} Mentored during CUHK's Summer Undergraduate Research Exchange (SURE) Programme. Collaborated on a paper on lensing forecasts for gravitational waves, published in 2025 (\href{https://arxiv.org/abs/2403.16532}{link}). Leo subsequently secured a PhD position at Pennsylvania State University. & \raggedright Feb--Jun 2023
+\end{tabular}
+
+\vspace{.2in}
+\section{\sc Awards and Fellowships}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Awarded a postgraduate studentship at the Department of Physics, The Chinese University of Hong Kong (HK\$17,330.00 per month) & \raggedright 2020
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Awarded an internship grant from Karlsruhe House of Young Scientists (KHYS), Germany, for research with the AMS-02 experiment (EUR 2,000) & \raggedright 2017
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Awarded an internship certificate from IEKP (Institut f\"ur Experimentelle Kernphysik) at Karlsruhe Institute of Technology (KIT), Germany, after successfully completing a 60-day internship programme. & \raggedright 2017
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Gained admission to IIT Bombay (ranked the top university in India in the 2018 QS World University Rankings) through the 2016 IIT-JAM (Joint Admission Test for M.Sc.) Physics examination, taken by nearly 11,000 physics undergraduates across India. & \raggedright 2016
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+DST INSPIRE Fellow (“Innovation in Science Pursuit for Inspired Research (INSPIRE)” is an innovative programme sponsored and managed by the Department of Science and Technology, Government of India. It is awarded to only 1\% of students across India pursuing careers in science) (INR 60,000 per year) & \raggedright 2012 -- 2016
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Awarded a State Merit Scholarship by Higher Education Manipur for outstanding results in the higher-secondary board examination (INR 6,000 per year) & \raggedright 2012 -- 2015
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Placed second in the Science Quiz competition at Science Meet Manipur, sponsored by the National Council for Science and Technology Communication, Department of Science and Technology, Government of India. Awarded a certificate and INR 1,000. & \raggedright 2009
+\end{tabular}
+
+\vspace{.2in}
+\section{\sc Technical Skills}
+
+{\bf Programming and Scripting Languages:} Python (expert), C (expert), C++, Fortran, Mathematica (expert), CERN ROOT (a data-analysis framework for high-energy physics), HTML, CSS, JavaScript (rudimentary), Three.js (rudimentary). {\bf Python Tools and Methods:} CPU and GPU code optimisation, JAX, Apple MLX, and artificial neural networks.
+
+{\bf Statistical Analysis:} Statistical simulations and data analysis within Bayesian frameworks.
+
+{\bf Graphing Software:} Origin, gnuplot.
+
+{\bf Software:} GitHub, LaTeX, Photoshop, Lightroom, Affinity Designer, Affinity Photo, Final Cut Pro.
+
+Office applications on Linux and Windows.
+
+{\bf Operating Systems:} macOS, Windows, Linux.
+
+{\bf Other Skills and Knowledge:} Machine learning and Arduino programming for Internet of Things (IoT) applications.
+
+
+\vspace{.2in}
+\section{\sc Internships}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+    \textbf{Studying the Anisotropy in Cosmic Rays Using the Alpha Magnetic Spectrometer (AMS-02):} Internship conducted at KIT (Germany) under the guidance of Kai Fabian Bindel (a PhD student supervised by Prof. Wim de Boer). This work focused on the analysis of helium and carbon events from the first five years of AMS-02 data aboard the International Space Station. Tasks included studying the differential rates of cosmic ray particles across various energy spectra and mapping their spatial distribution using HEALPix in different coordinate systems. & \raggedright May--Jul 2017
+\end{tabular}
+
+
+\vspace{.2in}
+\section{\sc Other Work}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+{\bf In the Realm of Bose | Non-fiction science book | Bose Institute, Kolkata, India:} Authored during the Winter Science Training Programme, this book encapsulates my learning experiences and observations as a participant. The programme, designed to stimulate scientific curiosity among school students, included lectures and hands-on activities across multiple scientific disciplines. The book extends beyond a simple diary to offer philosophical insights on the curiosity-driven learning process. Additional details are available \href{http://jcbose.ac.in/publication}{[link]}. & \raggedright Nov 2012
+\end{tabular}
+
+\vspace{.2in}
+\section{\sc Conferences, Talks, \\Workshops \\and \\Presentations}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Participated in the `Introductory Workshop on Gravitational Wave Data Analysis', organised by ICARD, Department of Physics, Manipur University, Imphal, India, on 20--21 October 2026. \href{https://drive.google.com/file/d/1pMeIWDASKQnrNQq5RWYkdBnYYqrY-PPd/view?usp=sharing}{[link]} & \raggedright Oct 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Seminar titled `Constraining Gravitational-Wave Events' in the RIST Popular Talk series (Talk 76), jointly organised by the Research Institute of Science and Technology (RIST) and the Department of Physics, Manipur University, Imphal, India, on 16 October 2026. \href{https://e-pao.net/epSubPageExtractor.asp?src=education.Education_Announcements.Edn_Ann_2026.RIST_Talk_76_Constraining_Gravitational_Wave_Events_20261013}{[link]} & \raggedright Oct 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Seminar titled `Detectable Strongly Lensed Gravitational Waves: Populations, Rates, and Selection Effects' at the Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune, India, on 30 September 2026. \href{https://drive.google.com/file/d/1QFgjv86UHZsK1LPOzVCmgzhgrnhrYK_F/view?usp=sharing}{[link]} & \raggedright Sep 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Poster titled `Constraining initial orbital eccentricity of inspiral-dominated gravitational-wave events with an analytic approximant (TaylorF2Ecck)' was presented at the LVK Collaboration Meeting, Pune, India. \href{https://drive.google.com/file/d/1nNzip_MpmrA39Z2z_0RJVNWrWfgwVObe/view?usp=sharing}{[link]} & \raggedright Sep 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Presentation on Python programming titled `Python Foundations for Scientific Problem Solving' at the SURIP Summer School 2026, The Chinese University of Hong Kong (CUHK), Hong Kong, on 22 June 2026. \href{https://gw.phy.cuhk.edu.hk/activities/surip-summer-school-2026/}{[event]} \href{https://drive.google.com/open?id=1tj5ZN51OZFJHG_lgRzO4tUwJHVU5TgdSMo5QUW5XUD8}{[slides]} & \raggedright Jun 2026
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+A short talk titled `ler: A python package for generating gravitational waves lensing rates and related statistics' was presented at the East-Asia Gravitational-Wave Science Workshop, Nagoya, Japan. \href{https://drive.google.com/file/d/11BcEQ8y3VvyTDxEGSe9ubFNxTURa9zNx/view?usp=sharing}{[link]} & \raggedright Dec 2025
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Participated in the `Workshop on Gravitational Wave Data Analysis', organised by ICARD, Department of Physics, Manipur University, Imphal, India, on 24--25 November 2025. \href{https://drive.google.com/file/d/1RQHuBLzjEc4uYQnRG6v2_5LUdNI1W0b9/view?usp=sharing}{[link]} & \raggedright Nov 2025
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Conducted three interactive sessions and seminars on gravitational waves at the Department of Physics, Dhanamanjuri University, Manipur, India, on 6, 11, and 18 November 2025, for research scholars, M.Sc. students, and B.Sc. students. \href{https://drive.google.com/file/d/14nBOgFw5nIWwDLIsz205Mkt3jeQdzXt6/view?usp=sharing}{[link]} & \raggedright Nov 2025
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Poster titled `ler: A python package for generating gravitational waves lensing rates and related statistics' was presented at The Future of Gravitational-Wave Astronomy, Bengaluru, India. \href{https://drive.google.com/file/d/1QKTWvBEHxe7wENE2PDzK7uYeg-og99Ye/view?usp=sharing}{[link]} & \raggedright Oct 2025
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Poster titled `On constraining initial orbital eccentricity of purely inspiral events with TaylorF2Ecck' was presented at the APCTP Workshop on Gravitational Waves, Taipei, Taiwan. \href{https://drive.google.com/file/d/1-59non-s2W-IOUfH_fRzH7GzmV0HWoWk/view?usp=sharing}{[link]} & \raggedright Apr 2025
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Poster titled `ler: A python package for generating gravitational waves lensing rates and related statistics' was presented at the Rubin strong lensing workshop, Oxford, United Kingdom. & \raggedright Mar 2024
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Poster titled `ler: A python package for generating gravitational waves lensing rates and related statistics' was presented at the Multi-messenger gravitational lensing scientific meeting, Manchester, United Kingdom. & \raggedright Mar 2024
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Talk titled `On the predictions of gravitational waves lensing events.
+(Present and Future)' at Cosmic Frontiers Conference organised by CUHK, Hong Kong. \href{https://drive.google.com/file/d/1GRFJcUIEXQxF6iCyLmg-7jZ6lvFdQoMm/view?usp=sharing}{[link]} & \raggedright Nov 2023
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Poster titled `ler: A python package for generating gravitational waves lensing rates and related statistics' was presented at the LIGO--Virgo--KAGRA (LVK) collaboration meeting at Toyama, Japan. \href{https://dcc.ligo.org/LIGO-P2400274}{[link]} & \raggedright Sep 2023
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Talk titled `On the predictions of gravitational waves lensing events.
+(Present and Future)' at YGA2023 conference, CityU, Hong Kong. & \raggedright Aug 2023
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Invited talk titled `Effect of eccentricity and sub-dominant harmonics in the parameter estimation of Gravitational wave signals' at the 6th Workshop on Gravitational Waves, Seoul National University, Seoul, Korea. \href{https://drive.google.com/drive/folders/1JK3M1wSCkScemcbeU5dyIeenvnOFwARR?usp=sharing}{[link]} & \raggedright Nov 2022
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Invited talk (online) titled `Nested Sampling: An insight on the Bilby parameter estimation of gravitational waves' at the `GW Next' workshop organised by Alejandro Torres at TianQin Center, SYSU, Zhuhai. \href{https://docs.google.com/presentation/d/15u-ndYKA_ytU1wgQ0B0o9my2aA8hvcVb/edit?usp=sharing&ouid=105312759051297421233&rtpof=true&sd=true}{[link]} & \raggedright Jan 2022
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+Paper titled `Measurement of Time Period of A Simple Pendulum using an Electronic Circuit' was presented at the ‘National Conference on Emerging Trend of Research in Applied Sciences, Experimental and Computational Techniques (ETRASECT)', JIET, Jodhpur, Rajasthan, India. & \raggedright Feb 2015
+\end{tabular}
+
+
+
+\vspace{.2in}
+\section{\sc Key Courses}
+{\bf Physics Courses:} General Theory of Relativity, Quantum Mechanics I-II-III, Atomic and Molecular Physics, Nuclear and Particle Physics, Elementary Particle Physics, Electrodynamics I-II, Special Theory of Relativity, Classical Mechanics, Statistical Mechanics, Electronics, Thermodynamics, Modern Physics, Light--Matter Interaction, Condensed Matter Physics, Spectroscopy Laboratory, Optics Laboratory, General Physics Laboratory.
+
+{ \bf Mathematics:}
+Numerical Analysis, Complex Analysis, Partial Differential Equations, Differential Equations, Integral Transforms, Special Functions, Vector Algebra and Calculus, Vector Spaces.
+
+{\bf Online Courses:} Artificial neural networks with Python (Udemy, 2019), Neural machine learning with Python (IBM, audited) from www.edx.org (2018--2019), Relativity and Astrophysics (Certified by Cornell University) from www.edx.org (2014). Electricity and Magnetism, Vibrations and Waves, and Classical Mechanics (MIT courses by Walter Lewin) (without certification).
+
+\vspace{.2in}
+\section{\sc Responsibilities}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+{Volunteered in organising Quarks 2014, the annual festival of the Department of Physics, Hindu College, University of Delhi.} & \raggedright Feb 2014
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+{Co-founded ‘Sci-Fun Tym’ with a colleague to teach science, primarily physics, through experiments to secondary and senior-secondary students. Conducted five lecture series reaching 400 students.} & \raggedright Jun--Jul 2013
+\end{tabular}
+
+\vspace{.2in}
+\section{\sc Extracurricular \\ Activities}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+{\bf Interest in music:} I founded the band ‘Blank,’ showcasing my skills in guitar and vocals during performances at the college's North-East festival in March 2015. I continue to perform occasionally, maintaining my passion for music.
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+{\bf Interest in photography:} With over a decade of experience in photography and photo editing, my work titled 'A mesmerizing view of Dzuko Valley' was featured on www.epao.net, a local news website, in December 2015. More examples of my photography can be viewed \href{https://www.instagram.com/ethil_lens?igsh=b215aWQ1ODrxMzl5&utm_source=qr}{here}.
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+{\bf Athletics:} I have consistently engaged in athletics, securing 2nd place in the 1500 m race and 3rd in the 800 m race at the annual school sports meet in December 2008. I have also practised basic gymnastics regularly since I was 12 years old.
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+{\bf Interest in painting and sketching:} I received an award in a school-wide painting competition in February 2006 and have since developed skills in both traditional and digital art across multiple media.
+\end{tabular}
+
+\begin{tabular}{@{}p{5.3in}p{0.62in}}
+{\bf Interest in poetry:} I regularly read and write poems. Some of my poems are available at this \href{https://hemantaph.notion.site/da1c78ed00cb4dd2820ba59787be18ee?v=32fd4a98621147209522f8f469081527&pvs=4}{[link]}.
+\end{tabular}
+
+\vspace{.2in}
+
+\section{\sc Languages}
+English, Hindi, Manipuri, Japanese.
+
+
+% \section{\sc Summary }
+% Dedicated and enthusiastic researcher who is hoping to pursue a research career in physics and astrophysics. Skilled with excellent experimental, theoretical, data-analysis background. Committed to undergo Post-doc research program. Ensure to deliver high quality result with little supervision.
+
+\end{resume}
+\end{document}

@@ -1,0 +1,31 @@
+# macOS metadata
+.DS_Store
+._*
+
+# LaTeX build files (keep the compiled PDF)
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.dvi
+*.pdfsync
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+*.bak
