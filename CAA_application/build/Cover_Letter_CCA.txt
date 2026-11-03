@@ -1,0 +1,45 @@
+Phurailatpam Hemantakumar
+hemantaph@link.cuhk.edu.hk       hemantaph.com
+
+31 October 2026
+Flatiron Research Fellow Search Committee
+Center for Computational Astrophysics
+Flatiron Institute, Simons Foundation
+Dear Members of the Search Committee,
+I am applying for the Flatiron Research Fellow position at the Center for Computational Astrophysics. I
+completed my PhD in Physics at The Chinese University of Hong Kong in 2026. My thesis focused on
+gravitational-wave lensing statistics, signal-to-noise ratio (SNR) and detection-probability calculations, and
+eccentric waveform modelling, implementation, and data analysis.
+I lead the development of ler, an open-source framework for simulating lensed and unlensed gravitational-
+wave populations and predicting their detectable rates. It combines source and lens populations, strong-
+lensing selection, numerical lens-equation solutions, and detector selection. The project has well-written
+documentation and actively maintained code, with updates guided by community contributions and feedback.
+I developed gwsnr to accelerate SNR and detection-probability calculations through partial-scaling in-
+terpolation, multiprocessing, and neural-network methods. Both packages have supported collaborative
+publications.
+At CCA, my lensing-statistics programme would combine star-formation-informed merger histories, delay-time
+and metallicity models, updated lens populations, and tested detection probabilities. I would propagate
+model and statistical uncertainties consistently into rates and detectable populations for lensing searches and
+candidate assessment. A possible extension is to stress-test population-based time-delay cosmography using
+updated models and propagating these uncertainties. I am particularly interested in collaboration with Will
+Farr and Jack Heinzel on population inference and selection effects, and in exchanges with CCA’s cosmology
+researchers.
+With collaborators, I developed the low-eccentricity TaylorF2Ecck inspiral waveform, implemented it in
+LALSuite, and applied it to Bayesian analyses of GW170817 and GW190425. I plan to improve the waveform
+models and investigate what the resulting constraints imply for compact-binary formation. I am interested in
+collaboration with Max Isi on waveform systematics and inference from individual events.
+I also pursue two subsidiary projects. In one, we studied the degeneracy between eccentricity and line-of-sight
+acceleration in GW190814, with scope for further analysis using improved models. In the other, following our
+joint detectability forecasts for lensed gravitational waves and gamma-ray bursts, I am developing Bayesian
+tests for lensed gamma-ray bursts using sky localisation and time delays. Future extensions would incorporate
+light curves and assess possible gravitational-wave counterparts.
+Alongside research, I have mentored undergraduate and graduate students, taught scientific Python at my
+university, and conducted gravitational-wave data-analysis workshops, public seminars and lectures, and
+interactive outreach sessions at other institutions. I would bring this experience to CCA’s mentoring and
+software activities while continuing my IGWN commitments.
+Thank you for considering my application.
+Sincerely,
+Phurailatpam Hemantakumar
+
+                                                      1
+

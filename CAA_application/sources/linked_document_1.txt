@@ -1,0 +1,36 @@
+﻿Guidance for CCA Fellowship Applications Based on Frequently Asked Questions
+This page is meant to help you prepare a strong application for the Flatiron Research Fellow (FRF) and Flatiron Software Research Fellow (FSRF) positions at the CCA. Excellent general advice exists elsewhere for preparing postdoc fellowship proposals and we encourage you to seek it out in addition to these CCA-specific FAQs.
+Do I need to connect my research to the CCA? How do I do that?
+Proposals should answer “why CCA?”
+The CCA is distinct from traditional academic departments, with a strong collaborative culture and a well-defined mission (the CCA website). In addition to explaining the work you propose to do, explain how being at the CCA would help make that research more successful. For example, through scientific or methodological collaborations, computing or software resources, or connections elsewhere at Flatiron. Information about CCA research themes and projects is available on the CCA website. This document describes areas of particular interest for the current hiring cycle. 
+
+
+Your proposal does not have to look like work we already do.
+We welcome compelling new directions as well as proposals that build on existing strengths. However, FRFs are most likely to thrive when they have good mentoring and a local community. If your program could be seen as falling outside current CCA expertise, please explain where you would find appropriate mentorship or scientific community within the CCA, Flatiron Institute, or greater New York City area.
+
+
+The proposed work does not need to use “big compute.”
+A strong connection to the CCA might instead involve significant interaction with the methodological expertise, software development skills, or robust data analysis methods of CCA personnel, for example. The applied mathematics, statistics, and machine learning expertise at the Flatiron Institute’s Center for Computational Mathematics (CCM) may also be considered as a resource. If your work is potentially cross-disciplinary with CCM, you should also apply to CCM’s FRF program, indicating interest in a possible joint appointment.
+
+
+Proposed work that depends on securing future telescope time is generally a poor fit.
+The CCA does not have institutional access to any traditional observatories, so a successful proposal will contain work plans that can be executed even if future requests for observations are not successful. We welcome proposals that make use of existing data, or survey data to which CCA members have access (e.g., SDSS-V, Terra Hunting Experiment, LIGO/Virgo/KAGRA, and Simons Observatory). 
+Who will evaluate my proposal? 
+Proposals will be read by CCA senior staff both within and outside your subfield.          We try to ensure that your application is evaluated (in part) by people with relevant expertise in your research area. However, we find it valuable to include evaluations from senior scientists with relevant technical expertise but distinct science domains. Please provide enough technical detail for an expert to evaluate your work, while also giving a broad astrophysics audience enough context to understand the importance, novelty, and feasibility of your proposed work.
+
+
+FRFs are hired as members of a cohort, not by individual groups or senior scientists.
+It is useful to identify synergies with CCA scientists, groups, software efforts, or strategic areas, but, given that FRFs operate as independent scientists, it is most important to make clear why your science matters and why the CCA would be a strong environment for it.
+Should I highlight community work, software, or other strengths?
+Community, software, or infrastructure contributions are highly valued at the CCA.
+FRFs help sustain CCA’s scientific community through hosting seminars, workshops, developing or improving tools, contributing to open-source projects, and mentoring. There are opportunities to collaborate with junior scientists and students. We welcome FRFs who want to engage with these parts of our mission.
+
+
+Applications are reviewed holistically. 
+We consider past accomplishments; the originality, impact, and feasibility of the proposed program; contributions to software, infrastructure, mentoring, and scientific community; and the fit between the proposed work and the CCA. We do not have thresholds for minimum numbers of papers, software projects, or similar metrics. We do account for career stage, with generally higher expectations for more senior applicants who have followed traditional academic trajectories. If you have had a non-traditional career path, you are welcome to share additional context in a cover letter. With the exception of the 5-year FSRF, we do not expect the term of CCA employment to extend into a 7th year of postdoctoral employment.
+What makes a good fit for the FSRF? 
+For the FSRF, software development should be a core part of the research program and not just a tool used to execute the research.
+A strong proposal will contain a credible development plan that explains what you would build, who would use it, what science it enables (both for you, and for the field as a whole), and how it would be maintained. Your proposed work might, for example, extend a software package you have already started to develop, create a new software package that fulfills a research need you have identified, or contribute to or lead an existing community-oriented project. The longer term of the FSRF is meant to provide the time needed to develop robust research software along with generating scientific results, and to engage with the community that will use the software. Applicants may apply to both fellowships so long as each proposal is distinct and tailored to the goals of the respective program The same guidance above about “who evaluates my proposal?” applies to the FSRF proposal as well, but the discussion of scientific impact should also consider the impact of your software on the broader field. 
+Can I use AI while developing my application?
+Carefully consider your use of generative AI.
+We may use AI tools in initial sorting of applications and assignment of readers, but proposals are evaluated by humans. Applicants may choose whether and how to use AI in preparing their applications, but we ask that you think critically about this choice. Please keep in mind that: (1) LLMs typically speak in generalities; and (2) proposals and cover letters produced by LLMs may read well in isolation, but will read like many other proposals and cover letters that were also produced by an LLM. Strong proposals are specific, make a clear intellectual case for the proposed work, and convey the applicant’s own perspective and insights.

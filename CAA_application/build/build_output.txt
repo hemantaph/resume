@@ -1,0 +1,20 @@
+Rc files read:
+  NONE
+Latexmk: Run number 1 of rule 'pdflatex'
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'build/CV_CCA.log'
+
+Latexmk: Run number 1 of rule 'pdflatex'
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'build/Research_Statement_CCA.log'
+
+Latexmk: Run number 1 of rule 'pdflatex'
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'build/Cover_Letter_CCA.log'
+

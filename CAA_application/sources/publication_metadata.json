@@ -1,0 +1,98 @@
+[
+  {
+    "title": [
+      "Strong Gravitational-wave Lensing Posterior Odds"
+    ],
+    "container-title": [
+      "The Astrophysical Journal"
+    ],
+    "volume": "1002",
+    "issue": "1",
+    "page": "42",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          24
+        ]
+      ]
+    },
+    "DOI": "10.3847/1538-4357/ae5816"
+  },
+  {
+    "DOI": "10.1098/rsta.2024.0127",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1098/rsta.2024.0127"
+  },
+  {
+    "DOI": "10.1098/rsta.2024.0152",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1098/rsta.2024.0152"
+  },
+  {
+    "title": [
+      "Characterizing gravitational wave detector networks: from A\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mrow>\n                        <mml:msup>\n                          <mml:mrow/>\n                          <mml:mo>\u266f</mml:mo>\n                        </mml:msup>\n                      </mml:mrow>\n                    </mml:math>\n                    to cosmic explorer"
+    ],
+    "container-title": [
+      "Classical and Quantum Gravity"
+    ],
+    "volume": "41",
+    "issue": "24",
+    "page": "245001",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1088/1361-6382/ad7b99"
+  },
+  {
+    "title": [
+      "ler: LVK (LIGO-Virgo-KAGRA collaboration) event (compact-binary mergers) rate calculator and simulator"
+    ],
+    "container-title": [
+      "Journal of Open Source Software"
+    ],
+    "volume": "11",
+    "issue": "124",
+    "page": "7420",
+    "article-number": null,
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.21105/joss.07420"
+  },
+  {
+    "title": [
+      "Constraining initial orbital eccentricity of inspiral-dominated gravitational-wave events with an analytic approximant"
+    ],
+    "container-title": [
+      "Physical Review D"
+    ],
+    "volume": "114",
+    "issue": "6",
+    "page": null,
+    "article-number": "063003",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1103/94fx-wnjx"
+  }
+]

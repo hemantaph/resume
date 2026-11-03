@@ -1,0 +1,38 @@
+{
+  "CV_CCA": {
+    "pages": 4,
+    "embedded_external_links": 31,
+    "no_unresolved_citations_or_overfull_boxes": true,
+    "no_draft_placeholders": true
+  },
+  "Research_Statement_CCA": {
+    "pages": 4,
+    "embedded_external_links": 9,
+    "no_unresolved_citations_or_overfull_boxes": true,
+    "no_draft_placeholders": true
+  },
+  "Cover_Letter_CCA": {
+    "pages": 1,
+    "embedded_external_links": 2,
+    "no_unresolved_citations_or_overfull_boxes": true,
+    "no_draft_placeholders": true
+  },
+  "research_body_pages": 3,
+  "research_projects_kept_separate": true,
+  "font_and_margins": "11 pt body; 1 inch margins; US Letter",
+  "limits": [
+    "AAS guidelines inaccessible",
+    "Personal history and internal GRASP commitments follow user-supplied material",
+    "Selected publication metadata verified, not every external URL"
+  ],
+  "thesis_topics": [
+    "Gravitational-wave lensing statistics",
+    "SNR and detection-probability calculations",
+    "Eccentric waveform modelling, implementation, and data analysis"
+  ],
+  "subsidiary_projects": [
+    "Line-of-sight acceleration",
+    "Multimessenger lensing"
+  ],
+  "ler_documentation_maintenance_and_community_contributions": "Explicitly described in all three documents"
+}

@@ -1,0 +1,74 @@
+﻿Strategic Areas of Hire: FRF Job Search
+
+
+The CCA hires broadly across many areas of astrophysics, and we welcome applications from any candidates who feel that their work would be well supported at the CCA. While we cast a wide net, in any given year there are some areas where CCA staff are particularly interested in building a community of collaborators. We have compiled this document to help potential applicants identify particularly resonant “fits” that they may wish to highlight in their application, if appropriate. However, by no means are successful applications confined to these topics. For a full list of research areas at the CCA, please review the group websites. This can be accessed by navigating to the “groups” tab at the top of CCA’s website and then clicking on your area of interest. General guidance for preparing an effective CCA application can be found at (LINK).
+
+
+Stars and Plasma Astrophysics:
+* CCA is aiming at strengthening its leadership position in the numerical study (1D and 3D) of stellar structure and evolution, as well as stellar atmospheres.
+* Informed by realistic progenitor structures and pathways, develop physically-motivated models for astrophysical transients (e.g., supernovae, mergers, tidal disruption events) and their thermal and non-thermal emissions across the electromagnetic spectrum.  
+* Understand the kinetic physics of magnetic field dissipation, particle acceleration and cosmic ray acceleration and transport.
+* Create realistic plasma models of black hole and neutron star magnetospheres (single and binary) and their observational manifestations.
+* Contact persons for 3D Stars: Matteo Cantiello, mcantiello@flatironinstitute.org; Daniel Lecoanet dlecoanet@flatironinstitute.org
+* Contact persons for Stellar Transients: Brian Metzger, bmetzger@flatironinstitute.org
+* Contact person for Plasma Astrophysics: Lorenzo Sironi, lsironi@flatironinstitute.org
+
+
+Gravitational Waves:
+* Data analysis of individual LIGO-Virgo-KAGRA detections and populations / catalogs: development of algorithms and science exploitation.
+* Formation and evolution of compact object merger progenitors, particularly tied to our growing understanding of GW populations.
+* Constraining fundamental physics with GW observations: propagation of GWs, waveforms in modified theories of gravity, constraints on spacetime structure at high curvature, nuclear equation of state.  Particularly tied to data analysis / observation of GWs.
+* Black hole ringdowns: theory and observations.
+* Cosmology with GW observations: algorithms and data analysis of existing observations.
+* Contact persons: Will M. Farr wfarr@flatironinstitute.org and Max Isi misi@flatironinstitute.org
+
+
+Exoplanets:
+
+
+* Further development, testing, and application of PASTA, the CCA’s new performance portable simulation code, to problems in accretion physics or planet formation. The current working version of PASTA has capabilities that include radiation MHD with AMR, local time stepping, and a novel multi-fluid algorithm. 
+* Contact Person: Yan-Fei Jiang, yjiang@flatironinstitute.org
+* Observational & archival data analysis efforts in areas such as astrometric exoplanet detection with Gaia, extreme precision radial velocity science, and population-level inferences (see the Astronomical Data group priorities).
+* Contact Person: Megan Bedell mbedell@flatironinstitute.org
+
+
+Astronomical Data:
+* Method developments in rigorously analysing and understanding large and complex data sets.
+* Use of Gaia data, particularly leveraging the new epoch-level information in DR4.
+* Spectroscopy: The Flatiron Institute is a consortium member in SDSS-V, and the Terra Hunting Experiment. These are precision spectroscopy projects collecting large numbers of stellar spectra. Thus we have vested interests in all aspects of stellar spectroscopy: from calibration and extraction of data, to determination of stellar parameters, to mitigation of noise sources in radial-velocity measurements. We also have interests in population-level inferences from stellar abundances and radial-velocity surveys.
+* Contact persons: Megan Bedell (mbedell@flatironinstitute.org), Andy Casey (acasey@flatironinstitute.org), Adrian Price-Whelan (apricewhelan@flatironinstitute.org)
+
+Machine Learning X Astrophysics:
+Key areas of interest in Machine Learning X Astrophysics at CCA this year
+   * Scientific Machine Learning: development and application of modern deep learning methods with the goals of advancing scientific knowledge in the area of astrophysics. 
+   * Agentic AI: Development and deployment of AI agents for scientific discovery
+   * Software development and engineering in the area of scientific machine learning, differentiable programming, and probabilistic modeling in order to enable transformative science. 
+   * Contact Person: Carolina Cuesta ccuesta-lazaro@flatironinstitute.org, Shirley Ho shirleyho@flatironinstitute.org & Francisco Villaescusa-Navarro, fvillaescusa@flatironinstitute.org, 
+
+
+Cosmology and Cosmic Microwave Background (CMB):
+Key areas of interest in cosmology and particle astrophysics at CCA are:
+   * Large  Scale Structure: Science enabled by current/upcoming large-scale structure surveys such as DESI, Rubin, Euclid or Roman 
+   * Data Analysis:  Development of novel statistical, machine learning tools in cosmology data analysis and simulations
+   * Numerical simulations: Numerical simulations for upcoming cosmological surveys
+   * Cosmic microwave background: Analysis of data from CMB experiments such as ACT and SO
+   * Machine learning for Cosmology: Machine learning applied to cosmology 
+   * Contact  Persons: Simone Aiola,  saiola@flatironinstitute.org, Carolina Cuesta ccuesta-lazaro@flatironinstitute.org, Jo Dunkley, jdunkley@flatironinstitute.org, Shirley Ho shirleyho@flatironinstitute.org & Francisco Villaescusa-Navarro fvillaescusa@flatironinstitute.org, 
+
+
+ Nearby Universe:
+   * The nature of dark matter: Using stellar streams and stellar dynamics to study the properties of dark matter within the Milky Way and Local Group. 
+   * Dynamical disequilibrium: Studying the onset and impact of disequilibrium in the evolution of dynamical systems, and developing new methods that leverage non-phase-mixed structures to make fundamental measurements about the Milky Way with large stellar surveys (SDSS-V and Gaia).
+   * Resolved stellar populations and the ISM: Taking advantage of massive multi-wavelength data sets in the Local Group to constrain stellar evolution and the physics of the interaction of stellar populations with the ISM. There are also opportunities to work on the challenging data side of this topic.
+   * Numerical methods: Projects that connect to applied math and software development with possible connections to the CCM and SCC, such as accelerating and developing new tools for fast orbit and dynamical system integration (e.g., using JAX). Projects that relate to new approaches and tools for sub-percent level stellar photometry in crowded fields with space telescopes (Roman, JWST, HST, etc), and/or inference using position-velocity data (e.g., IFUs, interferometric ISM data).
+   * Contact Person for dynamics and dark matter: Adrian Price-Whelan: aprice-whelan@flatironinstitute.org
+   * Contact Person for resolved stellar population & ISM science: Julianne Dalcanton jdalcanton@flatironinstitute.org 
+
+
+
+
+Galaxy Formation:
+   * Developing novel methods to address the multiscale problem in galaxy formation, such as star formation and the structure of the interstellar medium in the context of cosmological simulations, ram pressure stripping and mixing, and accretion onto and feedback from supermassive black holes.
+   * Enabling more detailed connections between models, simulations, and observations, particularly from new and upcoming facilities such as JWST, the Nancy Grace Roman Space Telescope, the PRIMA mission concept, and the Vera Rubin Telescope, and making connections between different modeling techniques and across sub-fields in Astrophysics as represented in the different groups at CCA.
+   * Studying the physics of interstellar and intergalactic gas and plasmas and their role in galaxy evolution as a whole. This includes gas phase structure and turbulence, flows of gas and cosmic rays within and around galaxies, and the nature of the CGM around the MW and other galaxies.
+   * Contact Person: Rachel Somerville, rsomerville@flatironinstitute.org

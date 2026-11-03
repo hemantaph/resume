@@ -1,0 +1,182 @@
+Research statement
+Phurailatpam Hemantakumar        |   Flatiron Research Fellow application
+
+My thesis comprises work on gravitational-wave lensing statistics, SNR and detection-probability calculations,
+and eccentric waveform modelling, implementation, and data analysis. I also pursue subsidiary projects on
+line-of-sight acceleration and multimessenger lensing.
+
+1. Gravitational-wave lensing statistics
+
+Motivation and completed work. Strong lensing can magnify distant compact-binary mergers and produce
+repeated observations of a source. Predicting the detectable population requires consistent source and lens
+models, strong-lensing selection, lens-equation solutions, and detector selection. These predictions support
+lensing searches and astrophysical and cosmological inference.
+I lead the development of ler, an open-source Monte Carlo framework for lensed and unlensed GW
+populations and detectable event rates [1]. I have implemented numerical strong-lensing cross-sections
+for elliptical power-law lenses with external shear (EPL+Shear), together with optical-depth calculations.
+Numba-compiled kernels, multithreading, and multiprocessing accelerate rejection and importance sampling,
+inverse-transform sampling, parameter sampling, lens-equation solving, and numerical integration.
+ler has been used in O3 lensing follow-up, faint-counterpart searches, and posterior-odds calculations [2, 3, 4].
+I have implemented propagation of population-hyperparameter and finite-sampling uncertainties into event
+rates. Further analysis and publication are ongoing.
+Proposed research. My priority is to propagate uncertainties consistently from source and lens models
+through to rates and detectable populations. I have begun work on star-formation-informed binary-black-hole
+merger densities. I would convolve cosmic star formation with formation-to-merger delay distributions,
+weighted by metallicity-dependent formation efficiency, and constrain the models using LVK data with detector
+selection included. Nearby observations do not uniquely determine the distant population. Comparing
+formation histories would quantify this uncertainty.
+I would extend the uncertainty calculation to distributions of source parameters, magnifications, time delays,
+and detectable image multiplicities. This requires propagating model alternatives, correlated hyperparameter
+uncertainties, and finite Monte Carlo sampling errors through the same source, lens, and selection calculation.
+Finite observed-catalogue statistics would enter the inference separately from numerical sampling error.
+Source and lens models would be updated as constraints improve, and detector-selection uncertainties included.
+The resulting distributions would supply population terms for Bayesian lensing tests.
+Possible extension to cosmology. Maity et al. [5] study cosmological inference from the lensed-event
+fraction and the distribution of lensing time delays, including detector selection. I would use ler to stress-test
+this population-based time-delay cosmography with updated source and lens populations and EPL+Shear
+lensing calculations. Model and parameter uncertainties would be propagated into the predicted observables
+and cosmological inference, alongside finite-catalogue statistics and Monte Carlo error. Tests on simulated
+catalogues would assess parameter bias, credible-interval coverage, and degeneracies between cosmology and
+population assumptions. This would establish when the cosmological constraints remain reliable.
+CCA connections. I am interested in collaboration with Will Farr and Jack Heinzel on population inference
+and selection effects, and discussions across CCA’s GW, galaxy-formation, and cosmology groups on the
+population models and cosmography tests. I would continue the associated IGWN work through GRASP,
+including ISR-weighted ler development, testing, and support.
+
+
+                                                        1
+Phurailatpam Hemantakumar                                                                   Research statement
+
+
+2. SNR and detection-probability calculations
+
+Repeated detectability calculations are a computational bottleneck in GW population studies. I developed
+gwsnr to calculate SNRs and detection probabilities efficiently [6]. It provides multiprocessing-based
+waveform inner products, partial-scaling interpolation, and artificial-neural-network methods, with Numba,
+JAX, and MLX supporting accelerated computation. The package has public documentation and is used in
+collaborative research, including the detector-selection calculation in ler.
+I plan to continue testing and improving these methods, including direct recalculation near the detection
+boundary and comparison of SNR-based detection probabilities with injection recovery. This is needed to
+quantify their accuracy and relation to search sensitivity. CCA’s expertise in selection effects and scientific
+computing would support this work. I would continue development, testing, and user support as non-ISR
+GRASP activity.
+
+3. Eccentric waveform modelling, implementation, and data analysis
+
+Motivation. Residual eccentricity can constrain compact-binary formation and evolution. Extracting it
+requires accurate waveforms and tests of parameter degeneracies. This thesis topic combines analytical
+modelling, waveform implementation, and Bayesian analysis of individual GW events.
+Completed work. With collaborators, I developed TaylorF2Ecck and implemented it in LALSuite [7].
+This frequency-domain inspiral model describes nonspinning, low-eccentricity binaries, with 𝑒 0 < 0.1
+defined at 20 Hz. It consistently includes leading eccentricity contributions from orbital dynamics, periastron
+advance, and GW emission, with phasing through 3PN order and quadrupolar-order amplitude. Analytical
+and numerical checks preceded parameter-estimation and injection studies.
+Analyses of GW170817 and GW190425 found no strong evidence favouring eccentricity or measurable
+periastron-advance effects. Injection studies established where the waveform differences become distinguish-
+able. We also found that insufficient phasing accuracy can bias the inferred mass ratio, motivating eccentric
+phasing through at least 3.5PN order.
+Proposed research and scientific benefit. I plan to extend TaylorF2Ecck with higher eccentricity orders,
+phasing through at least 3.5PN order, amplitude corrections, and spin effects. Each extension requires
+analytical consistency checks, implementation tests, comparisons with independent models, and injection
+studies before application to observed events.
+The aim is to determine which eccentricity effects are measurable and which can be confused with waveform
+error. Follow-up studies would connect the resulting constraints to dynamical formation and other compact-
+binary formation scenarios. Eccentricity alone does not uniquely identify a formation channel, so this
+interpretation must retain model uncertainties and the relevant selection effects. At CCA, I am particularly
+interested in collaboration with Max Isi on waveform systematics, model comparison, and inference
+from individual GW events. I would contribute experience in post-Newtonian calculations, numerical
+implementation, and Bayesian validation.
+
+
+
+
+                                                                                                             2
+Phurailatpam Hemantakumar                                                                  Research statement
+
+
+Subsidiary projects and prospects for extension
+
+Line-of-sight acceleration
+
+In a subsidiary project with Lalit Pathak and Achamveedu Gopakumar, we investigated eccentricity and
+line-of-sight acceleration in GW190814 [8]. We used 32 seconds of data and the IMRPhenomXPHM waveform
+augmented with leading-order acceleration and eccentricity corrections. The effects are strongly degenerate
+in the inspiral phase. We found no significant Bayesian evidence for either effect relative to the baseline
+model, despite nonzero parameter estimates in the joint analysis.
+I would also revisit joint eccentricity and acceleration inference using improved waveform prescriptions,
+including a more general treatment of time-dependent source acceleration. The motivation is to assess
+whether environmental effects can be distinguished from residual eccentricity and waveform error, and what
+they could reveal about a massive companion.
+
+Multimessenger lensing
+
+This subsidiary project aims to identify strongly lensed gamma-ray bursts (GRBs), with or without detectable
+GW counterparts. With Anupreeta More, I forecast the joint detectability of lensed short GRBs and
+binary-neutron-star GW signals using ler and gwsnr [9]. We considered GW counterparts to lensed GRBs
+and GRB counterparts to lensed GW systems.
+I am developing Bayesian posterior-odds tests of whether multiple GRBs are consistent with lensed images
+of one source, initially using sky localisation and time delays. Possible extensions would incorporate
+light-curve information and GW–GRB associations. The tests must account for measurement uncertainties,
+unrelated-burst coincidences, lensing-rate priors, and GRB selection. Validation with simulated lensed and
+unrelated events would establish how performance depends on these assumptions.
+The immediate goal is a statistical framework and code for candidate assessment. In the longer term, joint
+lensed observations could constrain source and lens properties and, with suitable electromagnetic observations
+and lens modelling, support time-delay cosmography. CCA’s expertise in Bayesian inference and GW
+cosmology would be valuable for developing these extensions. This work would complement my main thesis
+directions.
+
+Broader contribution
+
+ler is a community-driven project with well-written documentation and actively maintained, regularly
+updated code. Contributions and feedback from users inform its development.
+I would bring experience developing documented scientific software, checking analytical models, and carrying
+numerical calculations through to data analysis. CCA’s statistical expertise and scientific-computing support
+would help me improve both the efficiency and validation of these projects. I would share reproducible
+examples, simulation products, and research code, while continuing user support for my packages.
+I have mentored undergraduate, M.Sc., and early-stage PhD researchers, taught scientific Python at CUHK,
+and conducted GW data-analysis workshops in Manipur. I would contribute to CCA’s mentoring and
+computational training through similar practical work. These activities make the methods accessible to
+researchers who want to test their own astrophysical assumptions and reproduce the analysis.
+
+
+
+
+                                                                                                            3
+Phurailatpam Hemantakumar                                                                     Research statement
+
+
+References
+
+[1] H. Phurailatpam et al. (2026). ler: LVK (LIGO-Virgo-KAGRA collaboration) event (compact-binary merg-
+    ers) rate calculator and simulator. Journal of Open Source Software 11, 7420. doi:10.21105/joss.07420.
+
+[2] J. Janquart et al. (2023). Follow-up analyses to the O3 LIGO–Virgo–KAGRA lensing searches. MNRAS
+    526, 3832–3860. doi:10.1093/mnras/stad2909.
+
+[3] L. C. Y. Ng et al. (2025). Uncovering faint lensed gravitational-wave signals and reprioritizing their
+    follow-up analysis using galaxy lensing forecasts with detected counterparts. MNRAS 540, 2937–2951.
+    doi:10.1093/mnras/staf874.
+
+[4] O. A. Hannuksela et al. (2026). Strong Gravitational-wave Lensing Posterior Odds. The Astrophysical
+    Journal 1002, 42. doi:10.3847/1538-4357/ae5816.
+
+[5] K. N. Maity, S. Jana, T. Venumadhav, A. Barsode, and P. Ajith (2025, revised 2026). Strong lensing
+    cosmography using binary-black-hole mergers: Prospects for the near future. arXiv:2512.15168.
+
+[6] H. Phurailatpam and O. A. Hannuksela (2024, revised 2026). gwsnr: A Python package for efficient
+    signal-to-noise ratio calculations of gravitational waves. arXiv:2412.09888.
+
+[7] H. Phurailatpam et al. (2026). Constraining initial orbital eccentricity of inspiral-dominated gravitational-
+    wave events with an analytic approximant. Physical Review D 114, 063003. doi:10.1103/94fx-wnjx.
+
+[8] L. Pathak, H. Phurailatpam, and A. Gopakumar (2026). On the Presence of a Tertiary Compact Object in
+    GW190814. arXiv:2605.21955.
+
+[9] A. More and H. Phurailatpam (2025). Gravitational lensing: towards combining the multi-messengers.
+    Philosophical Transactions of the Royal Society A 383, 20240127. doi:10.1098/rsta.2024.0127.
+
+
+
+
+                                                                                                               4
+
