@@ -1,0 +1,47 @@
+Phurailatpam Hemantakumar
+hemantaph@link.cuhk.edu.hk | +852 9867 8178
+hemantaph.com | The Chinese University of Hong Kong
+
+3 November 2026
+Postdoctoral Fellowship Search Committee
+Kavli Institute for Particle Astrophysics and Cosmology
+Stanford University and SLAC National Accelerator Laboratory
+Dear Members of the Search Committee,
+I am applying for the postdoctoral fellowships at KIPAC. My PhD research in Physics at The Chinese University
+of Hong Kong was supervised by Otto A. Hannuksela; formal award of the degree is expected in December
+2026. My research concerns gravitational-wave lensing statistics, eccentric waveform development and
+implementation, and multimessenger lensing. I am particularly interested in the Kavli and Porat Fellowships
+and in other KIPAC positions aligned with these research directions.
+I lead the development of ler, an open-source framework for simulating lensed and unlensed compact-binary
+populations and predicting detectable event rates. I also developed gwsnr for efficient signal-to-noise ratio
+and detection-probability calculations. These tools have supported collaborative lensing studies, including
+candidate assessment and searches for faint counterparts. Building on this work, I plan to quantify how source
+and lens population uncertainties affect lensing forecasts and Bayesian candidate odds. A related proposed
+project will test the robustness of population-based time-delay cosmography to these uncertainties.
+My waveform research focuses on the collaborative development and implementation of an analytic, frequency-
+domain post-Newtonian eccentric waveform model, with applications to orbital-eccentricity inference
+and studies of compact-binary formation channels. With collaborators, I co-developed TaylorF2Ecck,
+implemented it in a LALSuite fork, and performed Bayesian analyses of GW170817 and GW190425. Within
+this collaboration, I plan to implement and validate ongoing eccentric and spin extensions in a LALSuite
+fork before their application to further events. Separately, in collaboration with Otto Akseli Hannuksela and
+Albert Kong, I am developing Bayesian tests for strongly lensed gamma-ray bursts, building on our published
+forecasts for lensed GW–GRB counterparts.
+KIPAC’s work on strong lensing, galaxy populations, and statistical inference provides a relevant setting
+for this programme. I would welcome exchanges with Phil Marshall on lens modelling, selection, and
+time-delay inference, and with Risa Wechsler’s group on galaxy-population models and their uncertainties.
+KIPAC’s computational resources and links to data-science research would also support validation of fast
+population-simulation methods. I would bring research software, experience in analytical modelling and
+Bayesian inference, and ongoing collaborations that provide a basis for the proposed work.
+I have mentored undergraduate and graduate researchers, taught scientific Python at CUHK, and conducted
+gravitational-wave data-analysis workshops at Manipur University. I would contribute to student mentoring
+and practical computational training at KIPAC, alongside maintaining documented research software and
+supporting its users.
+Thank you for considering my application.
+Sincerely,
+Phurailatpam Hemantakumar
+
+
+
+
+                                                      1
+

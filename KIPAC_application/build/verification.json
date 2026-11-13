@@ -1,0 +1,22 @@
+{
+  "Cover_Letter_KIPAC": {
+    "pages": 1,
+    "warnings": []
+  },
+  "CV_KIPAC": {
+    "pages": 2,
+    "warnings": []
+  },
+  "Research_Statement_KIPAC": {
+    "pages": 3,
+    "warnings": []
+  },
+  "Publication_List_KIPAC": {
+    "pages": 2,
+    "warnings": []
+  },
+  "CV_with_Publications_KIPAC": {
+    "pages": 4
+  },
+  "author_review_pending": []
+}

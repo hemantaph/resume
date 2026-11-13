@@ -1,0 +1,96 @@
+Phurailatpam Hemantakumar
+hemantaph@link.cuhk.edu.hk | +852 9867 8178
+hemantaph.com | github.com/hemantaph
+Department of Physics, The Chinese University of Hong Kong, Sha Tin, Hong Kong
+
+
+Education
+PhD in Physics, The Chinese University of Hong Kong                                               2020–2026
+Thesis: Statistical and Data Analysis of Eccentric and Lensed Gravitational Waves.
+Supervisor: Otto Akseli Hannuksela. Degree award expected December 2026.
+M.Sc. in Physics, Indian Institute of Technology Bombay                                           2016–2018
+B.Sc. (Hons.) in Physics, Hindu College, University of Delhi                                      2012–2015
+
+Research and scientific software
+Gravitational-wave lensing statistics. Lead developer of ler, a Monte Carlo framework for lensed and
+unlensed compact-binary populations and detectable rates, with Otto Akseli Hannuksela, Anupreeta More,
+David Keitel, Chris Van Den Broeck, and other collaborators. Implemented source and lens populations,
+strong-lensing selection, elliptical power-law lenses with external shear, cross-sections, optical depths,
+lens-equation solutions, and detector selection. Implemented propagation of population-hyperparameter
+and finite-sampling uncertainties; analysis and publication are ongoing. Working with Chunglee Kim on
+star-formation-informed merger rates.
+SNR and detection probability. Developer of gwsnr, in collaboration with Otto Akseli Hannuksela, using
+partial-scaling interpolation and parallel waveform inner products for signal-to-noise ratio calculations, with
+neural-network methods for detectability estimates. Maintain code, documentation, and user support for both
+packages.
+Eccentric waveform development and implementation. With Achamveedu Gopakumar, Maria Haney,
+Tjonnie Li, and Srishti Tiwari, co-developed TaylorF2Ecck, an analytic, frequency-domain post-Newtonian
+waveform for nonspinning, low-eccentricity inspirals, based on our earlier work, Tiwari et al. (2019), and
+implemented it in a LALSuite fork. Conducted Bayesian analyses of GW170817 and GW190425 and
+injection studies of waveform accuracy. With Lalit Pathak and Achamveedu Gopakumar, investigated the
+degeneracy between eccentricity and line-of-sight acceleration in GW190814.
+Multimessenger lensing. With Anupreeta More, co-authored forecasts for lensed short gamma-ray bursts
+and binary-neutron-star GW counterparts. In collaboration with Otto Akseli Hannuksela and Albert Kong,
+developing Bayesian posterior-odds tests for multiple GRBs using sky-localisation and time-delay information.
+
+LVK/GRASP commitments and service
+LIGO Scientific Collaboration member. LVK/GRASP commitments: project leadership, development, testing,
+documentation, and user support for ler, including ISR-weighted work towards GWTC-6 and GWTC-7;
+continued gwsnr development and support. Planned GRASP activities also include eccentric waveform
+development and implementation.
+
+Computational and statistical methods
+Programming: Python, C, C++, Fortran, Mathematica; NumPy, SciPy, Numba, JAX, MLX.
+Methods: Monte Carlo simulation, importance and rejection sampling, numerical integration, interpolation,
+Bayesian parameter estimation and model comparison, nested sampling, selection effects, and parallel
+CPU/GPU computation. LALSuite, bilby, Git, Linux, and LATEX.
+
+                                                      1
+Phurailatpam Hemantakumar                                                                    Curriculum vitae
+
+
+Research mentoring, teaching, and outreach
+Jiyun Park, PhD student, Ewha Womans University                                        Oct 2026–present
+Mentoring on star-formation-informed binary-black-hole merger densities and GW lensing rates.
+Jihwan Park, M.Sc. student, Ewha Womans University                                        Jan–May 2026
+Mentored a project on data-driven predictions of GW lensing rates.
+Yiwei Li, CUHK SURIP                                                                      May–Jun 2024
+Supervised research on ler statistics and documentation, and galaxy-cluster lensing.
+Additional mentoring: Brian Hiu Yeung Cheng (CUHK SURE, Apr–Jun 2024), Laura E. Uronen (early
+PhD, Aug–Oct 2023), and Leo C. Y. Ng (CUHK SURE, Feb–Jun 2023). Work with Uronen and Ng led to
+co-authored publications in 2025.
+Teaching assistant, CUHK: General Physics for Engineers (2020); Astronomy (2020–2022); Engineering
+Physics: Mechanics and Thermodynamics (2021).
+Workshop instruction: Served as a resource person and conducted GW data-analysis workshops at Manipur
+University (Nov 2025 and 20–21 Oct 2026). Taught Python Foundations for Scientific Problem Solving at the
+CUHK SURIP Summer School (Jun 2026); conducted GW sessions and seminars at Dhanamanjuri University
+(Nov 2025).
+
+Selected seminars and conference presentations
+ • Oct 2026: Constraining Gravitational-Wave Events, seminar, RIST and Manipur University.
+ • Sep 2026: Detectable Strongly Lensed Gravitational Waves: Populations, Rates, and Selection Effects,
+   seminar, IUCAA, Pune.
+ • Sep 2026: TaylorF2Ecck, poster, LVK Collaboration Meeting, Pune.
+ • Dec 2025: ler, talk, East-Asia Gravitational-Wave Science Workshop, Nagoya.
+ • Nov 2022: Eccentricity and subdominant harmonics in GW parameter estimation, invited talk, 6th
+   Workshop on Gravitational Waves, Seoul National University.
+
+Fellowships and awards
+Postgraduate studentship, Department of Physics, CUHK                                         Awarded 2020
+Karlsruhe House of Young Scientists internship grant                                                  2017
+DST INSPIRE Fellowship, Government of India                                                     2012–2016
+State Merit Scholarship, Higher Education Manipur                                               2012–2015
+
+Earlier research experience
+AMS-02 internship, Karlsruhe Institute of Technology (May–Jul 2017). Analysed helium and carbon
+cosmic-ray events, differential rates, and spatial distributions using HEALPix.
+
+Publications and products
+The accompanying publication list separates refereed papers, preprints, a white paper, conference proceedings,
+science writing, and scientific software.
+
+
+
+
+                                                                                                            2
+

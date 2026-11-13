@@ -1,0 +1,95 @@
+Publications and research products
+Phurailatpam Hemantakumar       |   3 November 2026
+
+Published as H. Phurailatpam / Hemantakumar Phurailatpam. All papers below include the applicant as an
+author; author lists are abbreviated with et al. where indicated.
+
+Refereed publications
+ 1. H. Phurailatpam et al. (2026). Constraining initial orbital eccentricity of inspiral-dominated
+    gravitational-wave events with an analytic approximant. Physical Review D 114(6), 063003.
+    doi:10.1103/94fx-wnjx. arXiv:2508.12697.
+    Contribution: Lead author; waveform implementation, data analysis, and interpretation of results.
+    Achamveedu Gopakumar also contributed significantly to manuscript writing and interpretation of
+    results.
+ 2. H. Phurailatpam et al. (2026). ler: LVK (LIGO-Virgo-KAGRA collaboration) event (compact-
+    binary mergers) rate calculator and simulator. Journal of Open Source Software 11(124), 7420.
+    doi:10.21105/joss.07420. arXiv:2407.07526.
+    Contribution: Lead developer, project maintainer and leader, and manuscript writer.
+ 3. O. A. Hannuksela et al. (2026). Strong Gravitational-wave Lensing Posterior Odds. The Astrophysical
+    Journal 1002(1), 42. doi:10.3847/1538-4357/ae5816. arXiv:2510.15463.
+    Contribution: Provided lensing-population statistics for the rate and time-delay terms in posterior odds.
+ 4. L. C. Y. Ng et al. (2025). Uncovering faint lensed gravitational-wave signals and reprioritizing their
+    follow-up analysis using galaxy lensing forecasts with detected counterparts. Monthly Notices of the
+    Royal Astronomical Society 540(4), 2937–2951. doi:10.1093/mnras/staf874. arXiv:2403.16532.
+    Contribution: Contributed lensing forecasts and mentored Leo C. Y. Ng during the project.
+ 5. A. More and H. Phurailatpam (2025). Gravitational lensing: towards combining the multi-messengers.
+    Philosophical Transactions of the Royal Society A 383(2295), 20240127. doi:10.1098/rsta.2024.0127.
+    arXiv:2502.02536.
+    Contribution: Developed detectability forecasts for lensed GW and GRB counterparts using ler and
+    gwsnr.
+ 6. L. E. Uronen et al. (2025). Finding black holes: an unconventional multi-messenger. Philosophical Trans-
+    actions of the Royal Society A 383(2294), 20240152. doi:10.1098/rsta.2024.0152. arXiv:2406.14257.
+    Contribution: Provided early-PhD research guidance to Laura E. Uronen and co-authored the study.
+ 7. J. Janquart et al. (2025). What is the nature of GW230529? An exploration of the gravita-
+    tional lensing hypothesis. Monthly Notices of the Royal Astronomical Society 537(2), 1001–1014.
+    doi:10.1093/mnras/staf049. arXiv:2409.07298.
+    Contribution: Provided lensing statistics for the binary-neutron-star interpretation of GW230529.
+ 8. I. Gupta et al. (2024). Characterizing gravitational wave detector networks: from A♯ to cosmic explorer.
+    Classical and Quantum Gravity 41(24), 245001. doi:10.1088/1361-6382/ad7b99. arXiv:2307.10421.
+    Contribution: Provided lensing statistics and forecasts for future detectors.
+
+
+
+
+                                                      1
+Phurailatpam Hemantakumar                                                                  Publication list
+
+
+ 9. J. Janquart et al. (2023). Follow-up analyses to the O3 LIGO–Virgo–KAGRA lensing searches.
+    Monthly Notices of the Royal Astronomical Society 526(3), 3832–3860. doi:10.1093/mnras/stad2909.
+    arXiv:2306.03827.
+    Contribution: Provided lensing-population statistics, magnification ratios, and time delays.
+10. S. Tiwari et al. (2019). Ready-to-use Fourier domain templates for compact binaries inspiraling along
+    moderately eccentric orbits. Physical Review D 99(12), 124008. doi:10.1103/PhysRevD.99.124008.
+    arXiv:1905.07956.
+    Contribution: Performed parallel waveform calculations and cross-checks in Mathematica notebooks;
+    contributed to manuscript writing, particularly the equations.
+
+Preprints
+11. L. Pathak, H. Phurailatpam, and A. Gopakumar (2026). On the Presence of a Tertiary Compact Object
+    in GW190814. arXiv:2605.21955.
+    Contribution: Performed match tests and parameter estimation; interpreted results and compared them
+    with related work.
+12. H. Phurailatpam and O. A. Hannuksela (2024, revised 2026). gwsnr: A Python package for efficient
+    signal-to-noise ratio calculations of gravitational waves. arXiv:2412.09888.
+    Contribution: Lead developer, project maintainer and leader, and manuscript writer.
+
+White paper
+13. M. Evans et al. (2023). Cosmic Explorer: A Submission to the NSF MPSAC ngGW Subcommittee.
+    arXiv:2306.13745.
+    Contribution: Provided lensing statistics and forecasts.
+
+Conference proceedings
+14. Bhuvnesh and H. Phurailatpam. Measurement of Time Period of A Simple Pendulum using an Electronic
+    Circuit. IJERT, NCETRASECT–2015, vol. 3, issue 23. Proceedings year 2015, first published online in
+    2018. Publisher.
+    Contribution: Developed the laser circuit and contributed to manuscript writing.
+
+Science writing
+15. H. Phurailatpam (2012). In the Realm of Bose: The Diary of a Teenager’s Brief Sojourn at Bose
+    Institute. Bose Institute, Kolkata. ISBN 978-93-83170-03-6. Publisher.
+    Contribution: Sole author; carried out the work independently. Editorial credit: Gautam Basu, Bose
+    Institute.
+
+Software
+ler — lead developer, project maintainer and leader. Gravitational-wave population and lensing-
+rate simulation; maintained code, documentation, and user support. Paper: item 2. Documentation:
+ler.hemantaph.com.
+gwsnr — lead developer, project maintainer and leader. Efficient SNR and detection-probability
+calculations; maintained code and documentation. Preprint: item 12. Documentation: gwsnr.hemantaph.com.
+TaylorF2Ecck — co-developer and implementer. Analytic, frequency-domain post-Newtonian eccentric
+inspiral waveform implemented in a LALSuite fork; validation and Bayesian analysis: item 1.
+
+
+                                                                                                         2
+

@@ -1,0 +1,856 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  Cover_Letter_KIPAC.tex
+  application_style.tex
+Category 'changed_user':
+  Cover_Letter_KIPAC.tex
+  application_style.tex
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder -output-directory="build"  "Cover_Letter_KIPAC.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Cover_Letter_KIPAC.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/articl
+e.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/size11
+.clo)) (./application_style.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ke
+yval.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ifv
+tex.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ift
+ex.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/fonten
+c.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/inpute
+nc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/newtx
+text.sty
+`newtxtext' v1.738, 2024/02/08 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xpatch/xpat
+ch.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3kernel/ex
+pl3.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3packages/
+xparse/xparse.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-cf
+g/color.cfg)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ma
+thcolor.ltx))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/textco
+mp.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/x
+string.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/x
+string.tex))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/ifthen
+.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/carlisle/sc
+alefnt.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kastrup/b
+inhex.tex)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fontaxes/fo
+ntaxes.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/newtx
+math.sty
+`newtxmath' v1.742, 2024/03/06 Math macros based originally on txfonts (msharpe
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/oberdiek/ce
+nternot.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kastrup/b
+inhex.tex)
+amsthm NOT loaded
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype-pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.cfg))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/enumitem/en
+umitem.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/tabul
+arx.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/array
+.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/titlesec/ti
+tlesec.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fancyhdr/fa
+ncyhdr.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvsetkeys/k
+vsetkeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hycolor/hyc
+olor.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/auxhook/aux
+hook.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/na
+meref.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/refcount/re
+fcount.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pd
+1enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pu
+enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/url/url.sty
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bitset/bi
+tset.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atvery
+end-ltx.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty))))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/t1ntx
+tlf.fd) (build/Cover_Letter_KIPAC.aux)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/omlnt
+xmi.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxe
+xa.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/lmsnt
+xsy.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/lmxnt
+xexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+t-ptm.cfg) (build/Cover_Letter_KIPAC.out) (build/Cover_Letter_KIPAC.out)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/t1ntx
+tt.fd) [1{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pd
+ftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dis
+t/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}] (build/Cover_Letter_KIPAC.aux) )</opt/
+homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/txfonts/
+t1xtt.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1
+/public/newtx/ztmb.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dis
+t/fonts/type1/public/newtx/ztmr.pfb>
+Output written on build/Cover_Letter_KIPAC.pdf (1 page, 81895 bytes).
+Transcript written on build/Cover_Letter_KIPAC.log.
+Latexmk: Getting log file 'build/Cover_Letter_KIPAC.log'
+Latexmk: Examining 'build/Cover_Letter_KIPAC.fls'
+Latexmk: Examining 'build/Cover_Letter_KIPAC.log'
+Latexmk: Log file says output to 'build/Cover_Letter_KIPAC.pdf'
+Latexmk: All targets (build/Cover_Letter_KIPAC.pdf) are up-to-date
+
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  CV_KIPAC.tex
+  application_style.tex
+Category 'changed_user':
+  CV_KIPAC.tex
+  application_style.tex
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder -output-directory="build"  "CV_KIPAC.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./CV_KIPAC.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/articl
+e.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/size11
+.clo)) (./application_style.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ke
+yval.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ifv
+tex.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ift
+ex.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/fonten
+c.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/inpute
+nc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/newtx
+text.sty
+`newtxtext' v1.738, 2024/02/08 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xpatch/xpat
+ch.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3kernel/ex
+pl3.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3packages/
+xparse/xparse.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-cf
+g/color.cfg)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ma
+thcolor.ltx))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/textco
+mp.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/x
+string.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/x
+string.tex))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/ifthen
+.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/carlisle/sc
+alefnt.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kastrup/b
+inhex.tex)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fontaxes/fo
+ntaxes.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/newtx
+math.sty
+`newtxmath' v1.742, 2024/03/06 Math macros based originally on txfonts (msharpe
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/oberdiek/ce
+nternot.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kastrup/b
+inhex.tex)
+amsthm NOT loaded
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype-pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.cfg))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/enumitem/en
+umitem.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/tabul
+arx.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/array
+.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/titlesec/ti
+tlesec.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fancyhdr/fa
+ncyhdr.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvsetkeys/k
+vsetkeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hycolor/hyc
+olor.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/auxhook/aux
+hook.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/na
+meref.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/refcount/re
+fcount.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pd
+1enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pu
+enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/url/url.sty
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bitset/bi
+tset.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atvery
+end-ltx.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty))))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/t1ntx
+tlf.fd) (build/CV_KIPAC.aux)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/omlnt
+xmi.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxe
+xa.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/lmsnt
+xsy.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/lmxnt
+xexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+t-ptm.cfg) (build/CV_KIPAC.out) (build/CV_KIPAC.out)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/ot1mi
+nntx.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxm
+ia.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxs
+ym.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxs
+yc.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/t1ntx
+tt.fd) [1{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pd
+ftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dis
+t/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/ts1nt
+xtlf.fd) [2{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/
+dvips/tex-gyre/q-ts1.enc}] (build/CV_KIPAC.aux) )</opt/homebrew/Cellar/texlive/
+20240312_3/share/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></opt/homebrew
+/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pf
+b></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/
+newtx/ztmb.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/
+type1/public/newtx/ztmr.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texm
+f-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on build/CV_KIPAC.pdf (2 pages, 126828 bytes).
+Transcript written on build/CV_KIPAC.log.
+Latexmk: Getting log file 'build/CV_KIPAC.log'
+Latexmk: Examining 'build/CV_KIPAC.fls'
+Latexmk: Examining 'build/CV_KIPAC.log'
+Latexmk: Log file says output to 'build/CV_KIPAC.pdf'
+Latexmk: All targets (build/CV_KIPAC.pdf) are up-to-date
+
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  Research_Statement_KIPAC.tex
+  application_style.tex
+Category 'changed_user':
+  Research_Statement_KIPAC.tex
+  application_style.tex
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder -output-directory="build"  "Research_Statement_KIPAC.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Research_Statement_KIPAC.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/articl
+e.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/size11
+.clo)) (./application_style.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ke
+yval.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ifv
+tex.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ift
+ex.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/fonten
+c.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/inpute
+nc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/newtx
+text.sty
+`newtxtext' v1.738, 2024/02/08 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xpatch/xpat
+ch.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3kernel/ex
+pl3.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3packages/
+xparse/xparse.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-cf
+g/color.cfg)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ma
+thcolor.ltx))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/textco
+mp.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/x
+string.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/x
+string.tex))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/ifthen
+.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/carlisle/sc
+alefnt.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kastrup/b
+inhex.tex)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fontaxes/fo
+ntaxes.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/newtx
+math.sty
+`newtxmath' v1.742, 2024/03/06 Math macros based originally on txfonts (msharpe
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/oberdiek/ce
+nternot.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kastrup/b
+inhex.tex)
+amsthm NOT loaded
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype-pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.cfg))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/enumitem/en
+umitem.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/tabul
+arx.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/array
+.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/titlesec/ti
+tlesec.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fancyhdr/fa
+ncyhdr.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvsetkeys/k
+vsetkeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hycolor/hyc
+olor.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/auxhook/aux
+hook.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/na
+meref.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/refcount/re
+fcount.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pd
+1enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pu
+enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/url/url.sty
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bitset/bi
+tset.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atvery
+end-ltx.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty))))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/t1ntx
+tlf.fd) (build/Research_Statement_KIPAC.aux)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/omlnt
+xmi.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxe
+xa.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/lmsnt
+xsy.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/lmxnt
+xexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+t-ptm.cfg) (build/Research_Statement_KIPAC.out)
+(build/Research_Statement_KIPAC.out)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/t1ntx
+tt.fd) [1{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pd
+ftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dis
+t/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/txfonts/t1t
+xtt.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/ot1mi
+nntx.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxm
+ia.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxs
+ym.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxs
+yc.fd) [2{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dv
+ips/newtx/ntx-ot1-tlf.enc}] [3] (build/Research_Statement_KIPAC.aux) )</opt/hom
+ebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/newtx/NewTX
+MI.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/pu
+blic/txfonts/t1xbtt.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-di
+st/fonts/type1/public/txfonts/t1xtt.pfb></opt/homebrew/Cellar/texlive/20240312_
+3/share/texmf-dist/fonts/type1/public/newtx/txsys.pfb></opt/homebrew/Cellar/tex
+live/20240312_3/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></opt/homebr
+ew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb
+></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/n
+ewtx/ztmri.pfb>
+Output written on build/Research_Statement_KIPAC.pdf (3 pages, 140731 bytes).
+Transcript written on build/Research_Statement_KIPAC.log.
+Latexmk: Getting log file 'build/Research_Statement_KIPAC.log'
+Latexmk: Examining 'build/Research_Statement_KIPAC.fls'
+Latexmk: Examining 'build/Research_Statement_KIPAC.log'
+Latexmk: Log file says output to 'build/Research_Statement_KIPAC.pdf'
+Latexmk: All targets (build/Research_Statement_KIPAC.pdf) are up-to-date
+
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  Publication_List_KIPAC.tex
+  application_style.tex
+Category 'changed_user':
+  Publication_List_KIPAC.tex
+  application_style.tex
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder -output-directory="build"  "Publication_List_KIPAC.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Publication_List_KIPAC.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/articl
+e.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/size11
+.clo)) (./application_style.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ke
+yval.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ifv
+tex.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ift
+ex.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/fonten
+c.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/inpute
+nc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/newtx
+text.sty
+`newtxtext' v1.738, 2024/02/08 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xpatch/xpat
+ch.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3kernel/ex
+pl3.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3packages/
+xparse/xparse.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-cf
+g/color.cfg)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ma
+thcolor.ltx))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/textco
+mp.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/x
+string.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/xstring/x
+string.tex))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/ifthen
+.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/carlisle/sc
+alefnt.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kastrup/b
+inhex.tex)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fontaxes/fo
+ntaxes.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/newtx
+math.sty
+`newtxmath' v1.742, 2024/03/06 Math macros based originally on txfonts (msharpe
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/oberdiek/ce
+nternot.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kastrup/b
+inhex.tex)
+amsthm NOT loaded
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype-pdftex.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+icrotype.cfg))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/enumitem/en
+umitem.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/tabul
+arx.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/array
+.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/titlesec/ti
+tlesec.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fancyhdr/fa
+ncyhdr.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvsetkeys/k
+vsetkeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hycolor/hyc
+olor.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/auxhook/aux
+hook.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/na
+meref.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/refcount/re
+fcount.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pd
+1enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/pu
+enc.def)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/url/url.sty
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bitset/bi
+tset.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/atvery
+end-ltx.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty))))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/t1ntx
+tlf.fd) (build/Publication_List_KIPAC.aux)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/omlnt
+xmi.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxe
+xa.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/lmsnt
+xsy.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/lmxnt
+xexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/microtype/m
+t-ptm.cfg) (build/Publication_List_KIPAC.out) (build/Publication_List_KIPAC.out
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/ot1mi
+nntx.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxm
+ia.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxs
+ym.fd)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/untxs
+yc.fd) [1{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pd
+ftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dis
+t/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/newtx/t1ntx
+tt.fd) [2] (build/Publication_List_KIPAC.aux) )</opt/homebrew/Cellar/texlive/20
+240312_3/share/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></opt/homebrew/
+Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb
+></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/n
+ewtx/ztmb.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/t
+ype1/public/newtx/ztmr.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf
+-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on build/Publication_List_KIPAC.pdf (2 pages, 126751 bytes).
+Transcript written on build/Publication_List_KIPAC.log.
+Latexmk: Getting log file 'build/Publication_List_KIPAC.log'
+Latexmk: Examining 'build/Publication_List_KIPAC.fls'
+Latexmk: Examining 'build/Publication_List_KIPAC.log'
+Latexmk: Log file says output to 'build/Publication_List_KIPAC.pdf'
+Latexmk: All targets (build/Publication_List_KIPAC.pdf) are up-to-date
+

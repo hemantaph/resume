@@ -1,0 +1,198 @@
+PhurailatpamHemantakumar
+hemantaph@link.cuhk.edu.hk| +85298678178
+hemantaph.com| github.com/hemantaph
+DepartmentofPhysics,TheChineseUniversityofHongKong,ShaTin,HongKong
+
+Education
+PhDinPhysics,TheChineseUniversityofHongKong                                2020–2026
+Thesis:StatisticalandDataAnalysisofEccentricandLensedGravitationalWaves.
+Supervisor:OttoAkseliHannuksela.DegreeawardexpectedDecember2026.
+M.Sc.inPhysics,IndianInstituteofTechnologyBombay                              2016–2018
+B.Sc.(Hons.)inPhysics,HinduCollege,UniversityofDelhi                           2012–2015
+
+Researchandscientificsoftware
+Gravitational-wavelensingstatistics.Leaddeveloperof ler,aMonteCarloframeworkforlensedand
+unlensedcompact-binarypopulationsanddetectablerates,withOttoAkseliHannuksela,AnupreetaMore,
+DavidKeitel,ChrisVanDenBroeck,andothercollaborators.Implementedsourceandlenspopulations,
+strong-lensingselection,ellipticalpower-lawlenseswithexternalshear,cross-sections,opticaldepths,
+lens-equationsolutions,anddetectorselection. Implementedpropagationofpopulation-hyperparameter
+andfinite-samplinguncertainties;analysisandpublicationareongoing.WorkingwithChungleeKimon
+star-formation-informedmergerrates.
+SNRanddetectionprobability.Developerofgwsnr,incollaborationwithOttoAkseliHannuksela,using
+partial-scalinginterpolationandparallelwaveforminnerproductsforsignal-to-noiseratiocalculations,with
+neural-networkmethodsfordetectabilityestimates.Maintaincode,documentation,andusersupportforboth
+packages.
+Eccentricwaveformdevelopmentandimplementation.WithAchamveeduGopakumar,MariaHaney,
+TjonnieLi,andSrishtiTiwari,co-developed TaylorF2Ecck,anonspinning,low-eccentricityinspiral
+waveformbasedonourearlierwork,Tiwarietal.(2019),andimplementeditina                LALSuitefork.Conducted
+BayesiananalysesofGW170817andGW190425andinjectionstudiesofwaveformaccuracy.WithLalit
+PathakandAchamveeduGopakumar,investigatedthedegeneracybetweeneccentricityandline-of-sight
+accelerationinGW190814.
+Multimessengerlensing.WithAnupreetaMore,co-authoredforecastsforlensedshortgamma-raybursts
+andbinary-neutron-starGWcounterparts.DevelopingBayesianposterior-oddstestsformultipleGRBsusing
+sky-localisationandtime-delayinformation.CollaboratingwithAlbertKongonGRB–GWresearch.
+
+LVK/GRASPcommitmentsandservice
+LIGOScientificCollaborationmember.LVK/GRASPcommitments:projectleadership,development,testing,
+documentation,andusersupportfor ler,includingISR-weightedworktowardsGWTC-6andGWTC-7;
+continued gwsnrdevelopmentandsupport. PlannedGRASPactivitiesalsoincludeeccentricwaveform
+developmentandimplementation.
+
+Computationalandstatisticalmethods
+Programming:Python,C,C++,Fortran,Mathematica;NumPy,SciPy,Numba,JAX,MLX.
+Methods:MonteCarlosimulation,importanceandrejectionsampling,numericalintegration,interpolation,
+Bayesianparameterestimationandmodelcomparison,nestedsampling,selectioneffects,andparallel
+CPU/GPUcomputation. LALSuite,bilby,Git,Linux,andLATEX.
+
+                                                       1
+PhurailatpamHemantakumar                                                        Curriculumvitae
+
+
+Researchmentoring,teaching,andoutreach
+JiyunPark,PhDstudent,EwhaWomansUniversity                             Oct2026–present
+Mentoringonstar-formation-informedbinary-black-holemergerdensitiesandGWlensingrates.
+JihwanPark,M.Sc.student,EwhaWomansUniversity                             Jan–May2026
+Mentoredaprojectondata-drivenpredictionsofGWlensingrates.
+YiweiLi,CUHKSURIP                                                     May–Jun2024
+Supervisedresearchonlerstatisticsanddocumentation,andgalaxy-clusterlensing.
+Additionalmentoring:BrianHiuYeungCheng(CUHKSURE,Apr–Jun2024),LauraE.Uronen(early
+PhD,Aug–Oct2023),andLeoC.Y.Ng(CUHKSURE,Feb–Jun2023).WorkwithUronenandNgledto
+co-authoredpublicationsin2025.
+Teachingassistant,CUHK:GeneralPhysicsforEngineers(2020);Astronomy(2020–2022);Engineering
+Physics:MechanicsandThermodynamics(2021).
+Workshopinstruction:ServedasaresourcepersonandconductedGWdata-analysisworkshopsatManipur
+University(Nov2025and20–21Oct2026).TaughtPythonFoundationsforScientificProblemSolvingatthe
+CUHKSURIPSummerSchool(Jun2026);conductedGWsessionsandseminarsatDhanamanjuriUniversity
+(Nov2025).
+
+Selectedseminarsandconferencepresentations
+ • Oct2026:ConstrainingGravitational-WaveEvents,seminar,RISTandManipurUniversity.
+ • Sep2026:DetectableStronglyLensedGravitationalWaves:Populations,Rates,andSelectionEffects,
+   seminar,IUCAA,Pune.
+ • Sep2026: TaylorF2Ecck,poster,LVKCollaborationMeeting,Pune.
+ • Dec2025: ler,talk,East-AsiaGravitational-WaveScienceWorkshop,Nagoya.
+ • Nov2022: EccentricityandsubdominantharmonicsinGWparameterestimation,invitedtalk,6th
+   WorkshoponGravitationalWaves,SeoulNationalUniversity.
+Fellowshipsandawards
+Postgraduatestudentship,DepartmentofPhysics,CUHK                            Awarded2020
+KarlsruheHouseofYoungScientistsinternshipgrant                                       2017
+DSTINSPIREFellowship,GovernmentofIndia                                      2012–2016
+StateMeritScholarship,HigherEducationManipur                                   2012–2015
+
+Earlierresearchexperience
+AMS-02internship,KarlsruheInstituteofTechnology(May–Jul2017).Analysedheliumandcarbon
+cosmic-rayevents,differentialrates,andspatialdistributionsusingHEALPix.
+
+Publicationsandproducts
+Theaccompanyingpublicationlistseparatesrefereedpapers,preprints,awhitepaper,conferenceproceedings,
+sciencewriting,andscientificsoftware.
+
+
+
+
+
+
+
+
+                                                                                                             2
+Publicationsandresearchproducts
+PhurailatpamHemantakumar | 3November2026
+
+PublishedasH.Phurailatpam/HemantakumarPhurailatpam.Allpapersbelowincludetheapplicantasan
+author;authorlistsareabbreviatedwithetal.whereindicated.
+
+Refereedpublications
+
+ 1.H.Phurailatpametal. (2026). Constraininginitialorbitaleccentricityofinspiral-dominated
+    gravitational-wave events with an analytic approximant.  Physical Review D 114(6), 063003.
+    doi:10.1103/94fx-wnjx.arXiv:2508.12697.
+    Contribution: Leadauthor;waveformimplementation,dataanalysis,andinterpretationofresults.
+    AchamveeduGopakumaralsocontributedsignificantlytomanuscriptwritingandinterpretationof
+    results.
+ 2.H.Phurailatpametal. (2026). ler: LVK(LIGO-Virgo-KAGRAcollaboration)event(compact-
+    binarymergers)ratecalculatorandsimulator. JournalofOpenSourceSoftware11(124),7420.
+    doi:10.21105/joss.07420.arXiv:2407.07526.
+    Contribution:Leaddeveloper,projectmaintainerandleader,andmanuscriptwriter.
+ 3.O.A.Hannukselaetal.(2026).StrongGravitational-waveLensingPosteriorOdds.TheAstrophysical
+    Journal1002(1),42.doi:10.3847/1538-4357/ae5816.arXiv:2510.15463.
+    Contribution:Providedlensing-populationstatisticsfortherateandtime-delaytermsinposteriorodds.
+ 4.L.C.Y.Ngetal.(2025).Uncoveringfaintlensedgravitational-wavesignalsandreprioritizingtheir
+    follow-upanalysisusinggalaxylensingforecastswithdetectedcounterparts.MonthlyNoticesofthe
+    RoyalAstronomicalSociety540(4),2937–2951.doi:10.1093/mnras/staf874.arXiv:2403.16532.
+    Contribution:ContributedlensingforecastsandmentoredLeoC.Y.Ngduringtheproject.
+ 5.A.MoreandH.Phurailatpam(2025).Gravitationallensing:towardscombiningthemulti-messengers.
+    PhilosophicalTransactionsoftheRoyalSocietyA383(2295),20240127.doi:10.1098/rsta.2024.0127.
+    arXiv:2502.02536.
+    Contribution:DevelopeddetectabilityforecastsforlensedGWandGRBcounterpartsusinglerand
+    gwsnr.
+ 6.L.E.Uronenetal.(2025).Findingblackholes:anunconventionalmulti-messenger.PhilosophicalTrans-
+    actionsoftheRoyalSocietyA383(2294),20240152.doi:10.1098/rsta.2024.0152.arXiv:2406.14257.
+    Contribution:Providedearly-PhDresearchguidancetoLauraE.Uronenandco-authoredthestudy.
+ 7.J.Janquartetal.  (2025).  WhatisthenatureofGW230529?  Anexplorationofthegravita-
+    tionallensinghypothesis. MonthlyNoticesoftheRoyalAstronomicalSociety537(2),1001–1014.
+    doi:10.1093/mnras/staf049.arXiv:2409.07298.
+    Contribution:Providedlensingstatisticsforthebinary-neutron-starinterpretationofGW230529.
+ 8.I.Guptaetal.(2024).Characterizinggravitationalwavedetectornetworks:fromA♯tocosmicexplorer.
+    ClassicalandQuantumGravity41(24),245001.doi:10.1088/1361-6382/ad7b99.arXiv:2307.10421.
+    Contribution:Providedlensingstatisticsandforecastsforfuturedetectors.
+
+
+
+
+
+
+
+                                                        1
+PhurailatpamHemantakumar                                                          Publicationlist
+
+
+ 9.J.Janquartetal. (2023). Follow-upanalysestotheO3LIGO–Virgo–KAGRAlensingsearches.
+    MonthlyNoticesoftheRoyalAstronomicalSociety526(3),3832–3860.doi:10.1093/mnras/stad2909.
+    arXiv:2306.03827.
+    Contribution:Providedlensing-populationstatistics,magnificationratios,andtimedelays.
+10. S.Tiwarietal.(2019).Ready-to-useFourierdomaintemplatesforcompactbinariesinspiralingalong
+    moderatelyeccentricorbits.PhysicalReviewD99(12),124008.doi:10.1103/PhysRevD.99.124008.
+    arXiv:1905.07956.
+    Contribution:Performedparallelwaveformcalculationsandcross-checksinMathematicanotebooks;
+    contributedtomanuscriptwriting,particularlytheequations.
+
+Preprints
+11. L.Pathak,H.Phurailatpam,andA.Gopakumar(2026).OnthePresenceofaTertiaryCompactObject
+    inGW190814.arXiv:2605.21955.
+    Contribution:Performedmatchtestsandparameterestimation;interpretedresultsandcomparedthem
+    withrelatedwork.
+12. H.PhurailatpamandO.A.Hannuksela(2024,revised2026).gwsnr:APythonpackageforefficient
+    signal-to-noiseratiocalculationsofgravitationalwaves.arXiv:2412.09888.
+    Contribution:Leaddeveloper,projectmaintainerandleader,andmanuscriptwriter.
+
+Whitepaper
+
+13. M.Evansetal. (2023). CosmicExplorer:ASubmissiontotheNSFMPSACngGWSubcommittee.
+    arXiv:2306.13745.
+    Contribution:Providedlensingstatisticsandforecasts.
+
+Conferenceproceedings
+14. BhuvneshandH.Phurailatpam.MeasurementofTimePeriodofASimplePendulumusinganElectronic
+    Circuit.IJERT,NCETRASECT–2015,vol.3,issue23.Proceedingsyear2015,firstpublishedonlinein
+    2018.Publisher.
+    Contribution:Developedthelasercircuitandcontributedtomanuscriptwriting.
+
+Sciencewriting
+
+15. H.Phurailatpam(2012). IntheRealmofBose: TheDiaryofaTeenager’sBriefSojournatBose
+    Institute.BoseInstitute,Kolkata.ISBN978-93-83170-03-6.Publisher.
+    Contribution:Soleauthor;carriedouttheworkindependently.Editorialcredit:GautamBasu,Bose
+    Institute.
+
+Software
+
+ler—leaddeveloper,projectmaintainerandleader.    Gravitational-wavepopulationandlensing-
+ratesimulation;maintainedcode,documentation,andusersupport. Paper: item2. Documentation:
+ler.hemantaph.com.
+gwsnr—leaddeveloper,projectmaintainerandleader.    EfficientSNRanddetection-probability
+calculations;maintainedcodeanddocumentation.Preprint:item12.Documentation:gwsnr.hemantaph.com.
+TaylorF2Ecck—co-developerandimplementer. EccentricinspiralwaveformimplementedinaLALSuite
+fork;validationandBayesiananalysisdescribedinitem1.
+
+
+                                                                                                                2
