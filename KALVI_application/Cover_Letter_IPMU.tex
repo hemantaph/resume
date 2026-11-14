@@ -1,0 +1,44 @@
+\documentclass[11pt]{article}
+\newcommand{\documenttype}{Cover letter}
+\usepackage[a4paper,margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,microtype,xcolor,enumitem,tabularx,titlesec,fancyhdr,hyperref}
+\definecolor{accent}{HTML}{315B8A}
+\definecolor{link}{HTML}{5B4F7A}
+\hypersetup{colorlinks=true,urlcolor=link,linkcolor=link,citecolor=link,pdfauthor={Phurailatpam Hemantakumar}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\setlength{\headheight}{14pt}\setlength{\emergencystretch}{2em}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\setlist[itemize]{leftmargin=16pt,itemsep=2pt,topsep=3pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=20pt,itemsep=5pt,topsep=3pt,parsep=0pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Phurailatpam Hemantakumar}\fancyhead[R]{\small\documenttype}\fancyfoot[R]{\small\thepage}\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\firstheading}[2]{\thispagestyle{plain}{\LARGE\bfseries\color{accent}#1}\par\vspace{3pt}{#2}\par\vspace{4pt}{\color{accent}\hrule}\vspace{7pt}}
+\newcommand{\dated}[2]{\par\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}#1&#2\end{tabularx}\par}
+\newcommand{\contact}{\href{mailto:hemantaph@link.cuhk.edu.hk}{hemantaph@link.cuhk.edu.hk}\quad|\quad +852 9867 8178\quad|\quad\href{https://hemantaph.com}{hemantaph.com}\\Department of Physics, The Chinese University of Hong Kong}
+\hypersetup{pdftitle={Cover letter | Phurailatpam Hemantakumar | Kavli IPMU}}
+\begin{document}
+\firstheading{Phurailatpam Hemantakumar}{\contact}
+14 November 2026
+
+Postdoctoral Fellowship Search Committee\\
+Kavli Institute for the Physics and Mathematics of the Universe\\
+The University of Tokyo
+
+Dear Members of the Search Committee,
+
+I am applying for the Postdoctoral Fellowships at Kavli IPMU (PD2026). I completed my PhD research in Physics at The Chinese University of Hong Kong under the supervision of Otto Akseli Hannuksela. The formal award of my degree is expected in December 2026. My research focuses on strong gravitational-wave (GW) lensing statistics, modelling gravitational waves from binaries in eccentric orbits, and Bayesian data analysis. I also develop computational tools for calculating signal-to-noise ratios and estimating detection probabilities in gravitational-wave population simulations.
+
+I lead the development and maintenance of \href{https://ler.hemantaph.com/}{\texttt{ler}} within the LVK lensing group. It is an open-source Monte Carlo framework for simulating strongly lensed and unlensed compact-binary populations and predicting detectable event rates (\href{https://doi.org/10.21105/joss.07420}{JOSS, 2026}). I also developed \href{https://gwsnr.hemantaph.com/}{\texttt{gwsnr}} for efficient signal-to-noise ratio and detection-probability calculations in population simulations. These tools have supported lensing candidate assessment, searches for faint counterparts, and forecasts of lensed GW and gamma-ray burst counterparts. I have implemented a framework for propagating population uncertainties into lensing-rate predictions, and am working on star-formation-informed binary-black-hole merger rates.
+
+I co-developed \texttt{TaylorF2Ecck}, an analytic, frequency-domain post-Newtonian extension of \texttt{TaylorF2} for eccentric inspirals. I implemented it in a \texttt{LALSuite} fork and performed Bayesian analyses of GW170817 and GW190425 (\href{https://doi.org/10.1103/94fx-wnjx}{Phys. Rev. D, 2026}). In a separate project, I investigated the degeneracy between orbital eccentricity and line-of-sight acceleration in GW190814.
+
+My existing collaboration with Anupreeta More, a visiting associate scientist at Kavli IPMU, connects my work to its lensing research. I use aspects of Masamune Oguri's 2018 work on lensed BBH populations, including source-redshift and galaxy velocity-dispersion distributions, and would welcome exchanges on lensing statistics. I would also welcome exchanges with Masahiro Takada on galaxy and cluster lensing. I would contribute GW population simulations, detector-selection calculations, and uncertainty propagation to studies of lensing populations and time delay cosmography. My experience leading scientific software development and carrying analytical models through implementation and Bayesian analysis provides a basis for independent research and collaboration across these areas.
+
+I intend to pursue independent research on GW lensing statistics, eccentric waveforms, and multimessenger lensing, as described in my research statement. I would also explore extending \texttt{ler} statistics to millilensing and microlensing. I will also continue my LVK/GRASP responsibilities, including leadership of \texttt{ler} and contributions towards GWTC-6 and GWTC-7. I have mentored undergraduate and graduate researchers, taught scientific Python, and conducted GW data-analysis workshops, and would welcome opportunities to contribute to similar activities at Kavli IPMU.
+
+Thank you for considering my application.
+
+Sincerely,\\
+Phurailatpam Hemantakumar
+\end{document}

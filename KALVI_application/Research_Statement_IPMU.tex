@@ -1,0 +1,81 @@
+\documentclass[11pt]{article}
+\newcommand{\documenttype}{Statement of research interests}
+\usepackage[a4paper,margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,microtype,xcolor,enumitem,tabularx,titlesec,fancyhdr,hyperref}
+\definecolor{accent}{HTML}{315B8A}
+\definecolor{link}{HTML}{5B4F7A}
+\hypersetup{colorlinks=true,urlcolor=link,linkcolor=link,citecolor=link,pdfauthor={Phurailatpam Hemantakumar}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}\setlength{\headheight}{14pt}\setlength{\emergencystretch}{2em}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\setlist[itemize]{leftmargin=16pt,itemsep=2pt,topsep=3pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=20pt,itemsep=5pt,topsep=3pt,parsep=0pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Phurailatpam Hemantakumar}\fancyhead[R]{\small\documenttype}\fancyfoot[R]{\small\thepage}\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\firstheading}[2]{\thispagestyle{plain}{\LARGE\bfseries\color{accent}#1}\par\vspace{3pt}{#2}\par\vspace{4pt}{\color{accent}\hrule}\vspace{7pt}}
+\newcommand{\dated}[2]{\par\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}#1&#2\end{tabularx}\par}
+\newcommand{\contact}{\href{mailto:hemantaph@link.cuhk.edu.hk}{hemantaph@link.cuhk.edu.hk}\quad|\quad +852 9867 8178\quad|\quad\href{https://hemantaph.com}{hemantaph.com}\\Department of Physics, The Chinese University of Hong Kong}
+\hypersetup{pdftitle={Statement of research interests | Phurailatpam Hemantakumar | Kavli IPMU}}
+\begin{document}
+\firstheading{Statement of research interests}{Phurailatpam Hemantakumar\quad|\quad Kavli IPMU (PD2026)}
+\textbf{Research interests:} Compact-binary populations, strong gravitational-wave lensing statistics, modelling gravitational waves from binaries in eccentric orbits, and Bayesian data analysis.
+
+My research spans two main areas: strong gravitational-wave (GW) lensing statistics and eccentric waveform modelling and data analysis. I also develop computational tools for calculating signal-to-noise ratios and estimating detection probabilities in GW population simulations, and pursue projects on line-of-sight acceleration and multimessenger lensing. At Kavli IPMU, I intend to continue these research directions through independent and collaborative research.
+
+\section*{1. Previous research achievements}
+\textbf{Strong gravitational-wave lensing statistics and population simulations.} Strong lensing can magnify distant compact-binary mergers and produce multiple detectable images of the same source. Predicting the detectable population requires consistent source and lens models, strong-lensing selection, lens-equation solutions, and detector selection. Such forecasts inform lensing searches and astrophysical inference.
+
+I lead the development and maintenance of \texttt{ler} within the LVK lensing group, with Otto Akseli Hannuksela, Anupreeta More, David Keitel, Chris Van Den Broeck, and other collaborators. It is an open-source Monte Carlo framework for strongly lensed and unlensed GW populations and detectable event rates [1]. I implemented source and lens population models, elliptical power-law lenses with external shear, semi-analytical lens-equation solvers for computing image properties, numerical cross-sections and optical depths, and detector-selection effects. Rejection and importance sampling, inverse-transform and parameter sampling, lens-equation solving, and numerical integration use Numba-compiled routines, with parallel processing where appropriate. \texttt{ler} has been used in O3 lensing follow-up, faint-counterpart searches, and Bayesian lensing posterior-odds calculations [2--4]. I have implemented a framework to propagate population-hyperparameter and finite-sampling uncertainties into event-rate predictions; further analysis and publication are ongoing.
+
+\textbf{SNR and detection probability.} Repeated detectability calculations are a computational bottleneck in GW population studies. I developed \texttt{gwsnr} with Otto Akseli Hannuksela to calculate signal-to-noise ratios (SNRs) and detection probabilities efficiently [5]. It provides parallelised waveform inner products, partial-scaling interpolation and artificial-neural-network estimates of detectability. Numba, JAX, and MLX provide further computational acceleration. I maintain both packages, their documentation, and user support.
+
+\textbf{Eccentric waveform modelling and data analysis.} Residual orbital eccentricity can constrain compact-binary formation and evolution. With Achamveedu Gopakumar, Maria Haney, Tjonnie Li, and Srishti Tiwari, I jointly developed \texttt{TaylorF2Ecck} and implemented it in a \texttt{LALSuite} fork [6,7]. This analytical frequency-domain inspiral approximant describes nonspinning compact binaries with low eccentricity ($e_0<0.1$, defined at 20 Hz). It extends \texttt{TaylorF2} by consistently including leading eccentricity contributions from orbital dynamics, periastron advance, and GW emission, with phasing through 3PN order and quadrupolar-order amplitude.
+
+I conducted Bayesian analyses of GW170817 and GW190425 and injection studies. We found no evidence for measurable eccentricity or detectable effects of periastron advance and additional harmonics. Injection studies investigated the regimes in which these effects become distinguishable. We also found that insufficient PN phasing accuracy can bias the inferred mass ratio.
+
+\textbf{Line-of-sight acceleration.} With Lalit Pathak and Achamveedu Gopakumar, I investigated line-of-sight acceleration (LOSA) induced by a possible massive companion and residual eccentricity in GW190814 [8]. I performed match tests and parameter estimation and contributed to interpretation. Using \texttt{IMRPhenomXPHM} augmented with leading-order LOSA and eccentricity corrections, we found a strong degeneracy between their effects on the inspiral phase, but no significant Bayesian evidence for either relative to the baseline model.
+
+\newpage
+\section*{2. Connections to Kavli IPMU}
+Kavli IPMU's research in gravitational lensing, observational cosmology, and statistical methods is relevant to my work on lensed GW populations. I already collaborate with \href{https://db.ipmu.jp/member/personal/2772en.html}{Anupreeta More} (IUCAA and visiting associate scientist at Kavli IPMU) on GW lensing statistics and multimessenger lensing. I use aspects of \href{https://arxiv.org/abs/1807.02584}{Masamune Oguri's 2018 study}, including BBH source-redshift and redshift-dependent galaxy velocity-dispersion distributions, and would welcome exchanges with him on lensing statistics. I would also welcome exchanges with \href{https://db.ipmu.jp/member/personal/698en.html}{Masahiro Takada} on galaxy and cluster lensing. These connections are relevant to my planned lensing-statistics extensions and proposed population-based time delay cosmography study described below. My contribution would be primarily from the GW side: population simulations, detector selection, uncertainty propagation, and Bayesian analysis. I would also contribute experience in developing documented scientific software.
+
+I have some familiarity with binary population synthesis. For a journal club, I presented the work of Boesky, Broekgaarden and Berger [9] and reproduced results using \texttt{COMPAS} (\href{https://docs.google.com/presentation/d/1WBn-nu949xdn9oGZe1GgIlbHsQ_ZBelahJA6aSFyVq0/edit}{presentation}). I am currently working with Chunglee Kim and Jiyun Park on star-formation-informed binary-black-hole merger rates, as described below.
+
+\section*{3. Independent research programme}
+\textbf{Strong gravitational-wave lensing statistics.} My priority is to quantify uncertainties in predictions of detectable lensed GW populations. With Chunglee Kim and Jiyun Park, I am working on star-formation-informed binary-black-hole merger histories. I plan to extend this work to include metallicity-dependent formation efficiency and formation-to-merger delays by convolving metallicity-weighted star formation with delay-time distributions. I would constrain these models using LVK data with detector selection included and compare alternative high-redshift merger histories. I would use the implemented uncertainty framework to quantify how source and lens model choices, hyperparameter uncertainties and finite Monte Carlo sampling affect lensing rates and Bayesian lensing posterior odds, including relative rates and magnification and time-delay priors. With Neha Singh, I will provide simulated field-binary populations for rate estimates and study lensed binary-black-hole mergers originating from Population III stars. With Anupreeta More, I plan to extend the lensing-statistics calculations to galaxy-cluster and dark-matter-halo lenses. I also plan to explore primordial BBH source populations. As prospective extensions, I would explore millilensing and microlensing statistics with \texttt{ler}.
+
+\textbf{Population-based time delay cosmography.} As a separate proposed project, I would test how source and lens population uncertainties affect cosmological inference from the lensed-event fraction and time-delay distribution, building on Maity et al. [11]. Using \texttt{ler}, I would recompute these observables with updated population models, elliptical power-law lenses with external shear, and detector selection. Tests with simulated catalogues would assess parameter bias, credible-interval coverage, and degeneracies between cosmology and population assumptions.
+
+\textbf{SNR and detection-probability calculations.} I plan to continue testing and improving \texttt{gwsnr}, including direct recalculation near the detection boundary and comparison of SNR-based detection probabilities with injection recovery. This is needed to quantify the accuracy of the methods and their relation to search sensitivity. I also plan to extend waveform support and computational performance.
+
+\newpage
+\textbf{Eccentric waveforms.} I plan to extend \texttt{TaylorF2Ecck} with higher eccentricity orders, amplitude corrections and spin effects. Shri Krishna Anand and Basundhara Ghosh, guided by Achamveedu Gopakumar, are incorporating spin effects into the eccentric waveform prescription, targeting 3PN phasing through $\mathcal{O}(e_0^6)$ and 1PN amplitudes through $\mathcal{O}(e_0^5)$. I will implement and validate these extensions using analytical checks, comparisons with independent models, and injection studies, and pursue official \texttt{LALSuite} integration. The goal is to determine the accuracy needed to measure residual eccentricity reliably and distinguish its effects from waveform modelling errors or other astrophysical effects. Further work will target eccentric phasing through at least 3.5PN order, with possible coordination with Chandra Kant Mishra and Kaushik Paul.
+
+\textbf{Line-of-sight acceleration.} With Lalit Pathak and Achamveedu Gopakumar, I plan to extend our GW190814 analysis to more events using higher-order eccentric corrections and a more general treatment of time-dependent source acceleration, such as Zhao et al. [10]. Joint inference and injection studies will assess how well eccentricity and acceleration can be distinguished and how waveform assumptions affect the results.
+
+\textbf{Multimessenger lensing.} With Anupreeta More, I forecast the detectability of lensed GW counterparts to lensed short gamma-ray bursts (GRBs) and of GRB counterparts to lensed GW systems [12]. With Otto Akseli Hannuksela, Albert Kong and other collaborators, I am developing Bayesian posterior-odds tests of whether multiple GRBs are lensed images of the same source, initially using sky localisation and observed time delays. I plan to complete and validate the statistical framework, accounting for measurement uncertainties, unrelated-burst coincidences, lensing-rate priors, and GRB selection. I will then incorporate light-curve information and explore joint GW--GRB associations.
+
+\section*{4. LVK commitments and broader contributions}
+I am a member of the LIGO Scientific Collaboration. My existing LVK/GRASP commitments include continued leadership and support of \texttt{ler} and \texttt{gwsnr}, including ISR-weighted \texttt{ler} work towards GWTC-6 and GWTC-7. Planned deliverables include updated rates and population priors for lensing analyses and improved detection-probability estimates. Eccentric waveform development and implementation are also planned GRASP activities. I intend to continue these responsibilities alongside my research at Kavli IPMU.
+
+I have mentored undergraduate, M.Sc., and early-stage PhD researchers, taught scientific Python at CUHK, and conducted GW data-analysis workshops and lectures. I would contribute to student mentoring, practical computational training and reproducible research at Kavli IPMU through similar activities. My experience leading scientific software development and carrying analytical models through implementation and data analysis provides a foundation for independent research as well as collaborative work across disciplines.
+
+\newpage
+\section*{References}
+\small
+\begin{enumerate}[itemsep=7pt]
+\item H. Phurailatpam et al. (2026), \textit{ler: LVK (LIGO-Virgo-KAGRA collaboration) event (compact-binary mergers) rate calculator and simulator}, JOSS \textbf{11}, 7420. \href{https://doi.org/10.21105/joss.07420}{doi:10.21105/joss.07420}.
+\item J. Janquart et al. (2023), \textit{Follow-up analyses to the O3 LIGO--Virgo--KAGRA lensing searches}, MNRAS \textbf{526}, 3832--3860. \href{https://doi.org/10.1093/mnras/stad2909}{doi:10.1093/mnras/stad2909}.
+\item L. C. Y. Ng et al. (2025), \textit{Uncovering faint lensed gravitational-wave signals and reprioritizing their follow-up analysis using galaxy lensing forecasts with detected counterparts}, MNRAS \textbf{540}, 2937--2951. \href{https://doi.org/10.1093/mnras/staf874}{doi:10.1093/mnras/staf874}.
+\item O. A. Hannuksela et al. (2026), \textit{Strong Gravitational-wave Lensing Posterior Odds}, ApJ \textbf{1002}, 42. \href{https://doi.org/10.3847/1538-4357/ae5816}{doi:10.3847/1538-4357/ae5816}.
+\item H. Phurailatpam and O. A. Hannuksela (2024, revised 2026), \textit{gwsnr: A Python package for efficient signal-to-noise ratio calculations of gravitational waves}. \href{https://arxiv.org/abs/2412.09888}{arXiv:2412.09888}.
+\item H. Phurailatpam et al. (2026), \textit{Constraining initial orbital eccentricity of inspiral-dominated gravitational-wave events with an analytic approximant}, Phys. Rev. D \textbf{114}, 063003. \href{https://doi.org/10.1103/94fx-wnjx}{doi:10.1103/94fx-wnjx}.
+\item S. Tiwari et al. (2019), \textit{Ready-to-use Fourier domain templates for compact binaries inspiraling along moderately eccentric orbits}, Phys. Rev. D \textbf{99}, 124008. \href{https://doi.org/10.1103/PhysRevD.99.124008}{doi:10.1103/PhysRevD.99.124008}.
+\item L. Pathak, H. Phurailatpam, and A. Gopakumar (2026), \textit{On the Presence of a Tertiary Compact Object in GW190814}. \href{https://arxiv.org/abs/2605.21955}{arXiv:2605.21955}.
+\item A. Boesky, F. S. Broekgaarden, and E. Berger (2024), \textit{The Binary Black Hole Merger Rate Deviates From the Cosmic Star Formation Rate: A Tug of War Between Metallicity and Delay Times}. \href{https://arxiv.org/abs/2405.01623}{arXiv:2405.01623}.
+\item X. Zhao, H. Yan, and X. Chen (2026), \textit{Novel method to construct frequency-domain gravitational waveforms for accelerating sources}, Phys. Rev. D \textbf{114}, 063006. \href{https://doi.org/10.1103/swkb-nkgg}{doi:10.1103/swkb-nkgg}.
+\item K. N. Maity et al. (2025, revised 2026), \textit{Strong lensing cosmography using binary-black-hole mergers: Prospects for the near future}. \href{https://arxiv.org/abs/2512.15168}{arXiv:2512.15168}.
+\item A. More and H. Phurailatpam (2025), \textit{Gravitational lensing: towards combining the multi-messengers}, Phil. Trans. R. Soc. A \textbf{383}, 20240127. \href{https://doi.org/10.1098/rsta.2024.0127}{doi:10.1098/rsta.2024.0127}.
+\end{enumerate}
+\end{document}

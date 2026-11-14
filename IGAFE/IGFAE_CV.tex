@@ -13,7 +13,7 @@
 \setlength{\parskip}{1pt}
 \setlist[itemize]{leftmargin=1.3em,topsep=2pt,itemsep=1pt,parsep=0pt}
 \titleformat{\section}{\normalsize\bfseries}{}{0pt}{}[\titlerule]
-\titlespacing*{\section}{0pt}{7pt}{3pt}
+\titlespacing*{\section}{0pt}{6pt}{2pt}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[C]{\small \thepage/2}
@@ -37,25 +37,28 @@ Strong lensing of gravitational waves; compact-binary populations and selection 
 \section*{Education}
 \entry{PhD in Physics, The Chinese University of Hong Kong}{2020--2026}
 Thesis defended 30 August 2026; formal degree certificate pending.\\
-Supervisor: Otto A. Hannuksela.\\
+Supervisor: Otto Akseli Hannuksela.\\
 \entry{MSc in Physics, Indian Institute of Technology Bombay}{2016--2018}
 \entry{BSc (Hons) in Physics, Hindu College, University of Delhi}{2012--2015}
 
 \section*{Research and scientific software}
 \textbf{Gravitational-wave lensing statistics (\texttt{ler}).}
-Lead developer of \href{https://ler.hemantaph.com/}{ler}, an open-source Monte Carlo framework for lensed and unlensed compact-binary populations and detectable rates. Implemented source and lens populations, elliptical power-law lenses with external shear, numerical lensing cross-sections and optical depths, lens-equation solving, and detector selection. Developed propagation of population-hyperparameter and finite-sampling uncertainties into rate estimates. The framework has supported LVK lensing follow-up and statistical analyses.
+Lead developer of \href{https://ler.hemantaph.com/}{ler}, an open-source Monte Carlo framework for lensed and unlensed compact-binary populations and detectable rates. Implemented source and lens populations, elliptical power-law lenses with external shear, numerical lensing cross-sections and optical depths, lens-equation solving, and detector selection. Implemented propagation of population-hyperparameter and finite-sampling uncertainties into rate estimates; further analysis and publication are ongoing. The framework has supported LVK lensing follow-up and statistical analyses.
 
 \textbf{Detection probability (\texttt{gwsnr}).}
-Developer of \href{https://gwsnr.hemantaph.com/}{gwsnr} for rapid signal-to-noise ratio (SNR) calculations using waveform inner products and partial-scaling interpolation, with Numba/JAX/MLX acceleration and neural-network-based detection-probability estimates. Used for detector selection in population forecasts.
+Lead developer of \href{https://gwsnr.hemantaph.com/}{gwsnr}, with Otto Akseli Hannuksela, for rapid signal-to-noise ratio (SNR) calculations using waveform inner products and partial-scaling interpolation, with Numba/JAX/MLX acceleration and neural-network-based detection-probability estimates. Used for detector selection in population forecasts.
 
 \textbf{Eccentric waveforms and parameter estimation.}
-Co-developed \href{https://arxiv.org/abs/2508.12697}{TaylorF2Ecck}, a nonspinning, low-eccentricity frequency-domain inspiral waveform, and implemented it in a \texttt{LALSuite} fork. It includes leading eccentricity contributions through 3PN phasing. Performed Bayesian analyses of GW170817 and GW190425 and injection studies; investigated waveform accuracy and potential mass-ratio biases.
+With Achamveedu Gopakumar, Maria Haney, Tjonnie Li, and Srishti Tiwari, co-developed \href{https://arxiv.org/abs/2508.12697}{TaylorF2Ecck}, a nonspinning, low-eccentricity frequency-domain inspiral waveform, and implemented it in a \texttt{LALSuite} fork. It includes leading eccentricity contributions through 3PN phasing. Performed Bayesian analyses of GW170817 and GW190425 and injection studies; investigated waveform accuracy and potential mass-ratio biases.
 
-\textbf{Related research.}
-Studied the degeneracy of line-of-sight acceleration and eccentricity for GW190814 (\href{https://arxiv.org/abs/2605.21955}{arXiv:2605.21955}). Co-authored forecasts for lensed short gamma-ray bursts and binary-neutron-star gravitational-wave counterparts (\href{https://arxiv.org/abs/2502.02536}{arXiv:2502.02536}); developing Bayesian lensing tests for multiple GRBs using sky-localisation and time-delay information (ongoing work).
+\textbf{Line-of-sight acceleration.}
+With Lalit Pathak and Achamveedu Gopakumar, studied the degeneracy of line-of-sight acceleration and eccentricity for GW190814 (\href{https://arxiv.org/abs/2605.21955}{arXiv:2605.21955}).
+
+\textbf{Multimessenger lensing.}
+With Anupreeta More, developed detectability forecasts for lensed GW and short gamma-ray burst counterparts (\href{https://arxiv.org/abs/2502.02536}{arXiv:2502.02536}). With Otto Akseli Hannuksela, Albert Kong and other collaborators, developing Bayesian lensing tests for multiple GRBs using sky-localisation and time-delay information.
 
 \section*{Collaboration and scientific service}
-Member of the LIGO Scientific Collaboration and project leader in statistical analysis of strongly lensed events. LVK/GRASP commitments include development, testing, and user support for \texttt{ler}, with ISR-weighted activities planned towards GWTC-6 and GWTC-7; continued \texttt{gwsnr} development and support.
+Member of the LIGO Scientific Collaboration; project leader of \texttt{ler}. LVK/GRASP commitments include development, testing, and user support for \texttt{ler}, with ISR-weighted activities planned towards GWTC-6 and GWTC-7; continued \texttt{gwsnr} development and support. Eccentric waveform development and implementation are also planned GRASP activities.
 
 \section*{Research mentoring and teaching}
 \begin{itemize}
@@ -65,7 +68,7 @@ Member of the LIGO Scientific Collaboration and project leader in statistical an
 \end{itemize}
 
 \section*{Computational and statistical methods}
-Python, C/C++, Fortran; \texttt{LALSuite}, \texttt{bilby}, NumPy, SciPy, Numba, JAX, MLX; Monte Carlo simulation, Bayesian parameter estimation and model comparison, evidence calculation, nested sampling, selection effects, and CPU/GPU computation.
+Python, C/C++, Fortran, Mathematica; \texttt{LALSuite}, \texttt{bilby}, NumPy, SciPy, Numba, JAX, MLX; Monte Carlo simulation, Bayesian parameter estimation and model comparison, evidence calculation, nested sampling, selection effects, and CPU/GPU computation.
 
 \newpage
 \section*{Publications}
