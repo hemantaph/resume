@@ -7,7 +7,7 @@
 \definecolor{accent}{HTML}{315B8A}
 \definecolor{link}{HTML}{5B4F7A}
 \hypersetup{colorlinks=true,urlcolor=link,linkcolor=link,citecolor=link,pdfauthor={Phurailatpam Hemantakumar}}
-\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}\setlength{\headheight}{14pt}\setlength{\emergencystretch}{2em}
+\setlength{\parindent}{0pt}\setlength{\parskip}{1.5pt}\setlength{\headheight}{14pt}\setlength{\emergencystretch}{2em}
 \titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
 \titlespacing*{\section}{0pt}{9pt}{4pt}
 \setlist[itemize]{leftmargin=16pt,itemsep=2pt,topsep=3pt,parsep=0pt}
@@ -30,9 +30,9 @@ I lead the development and maintenance of \texttt{ler} within the LVK lensing gr
 
 \textbf{SNR and detection probability.} Repeated detectability calculations are a computational bottleneck in GW population studies. I lead development of \texttt{gwsnr} with Otto Akseli Hannuksela to calculate signal-to-noise ratios (SNRs) and detection probabilities efficiently [5]. It provides parallelised waveform inner products, partial-scaling interpolation and artificial-neural-network estimates of detectability. Numba, JAX, and MLX provide further computational acceleration. I maintain both packages, their documentation, and user support.
 
-\textbf{Eccentric waveform modelling and data analysis.} Residual orbital eccentricity can constrain compact-binary formation and evolution. With Achamveedu Gopakumar, Maria Haney, Tjonnie Li, and Srishti Tiwari, we developed \texttt{TaylorF2Ecck} and implemented it in a \texttt{LALSuite} fork [6,7]. This analytical frequency-domain inspiral approximant describes nonspinning compact binaries with low eccentricity ($e_0<0.1$, defined at 20 Hz). It extends \texttt{TaylorF2} by consistently including leading eccentricity contributions from orbital dynamics, periastron advance, and GW emission, with phasing through 3PN order and quadrupolar-order amplitude.
+\textbf{Eccentric waveform modelling and data analysis.} Residual orbital eccentricity can constrain compact-binary formation and evolution. With Achamveedu Gopakumar, Maria Haney, Tjonnie Li, and Srishti Tiwari, we developed \texttt{TaylorF2Ecck} [6,7]. This analytical frequency-domain inspiral approximant describes nonspinning compact binaries with low eccentricity ($e_0<0.1$, defined at 20 Hz). It extends \texttt{TaylorF2} by consistently including leading eccentricity contributions from orbital dynamics, periastron advance, and GW emission, with phasing through 3PN order and quadrupolar-order amplitude.
 
-I contributed to our Bayesian analyses of GW170817 and GW190425 and to injection studies. We found no evidence for measurable eccentricity or detectable effects of periastron advance and additional harmonics. Injection studies investigated the regimes in which these effects become distinguishable. We also found that insufficient PN phasing accuracy can bias the inferred mass ratio.
+In this collaborative study, I implemented it in a \texttt{LALSuite} fork and performed Bayesian analyses of GW170817 and GW190425 and injection studies. We found no evidence for measurable eccentricity or detectable effects of periastron advance and additional harmonics. Injection studies investigated the regimes in which these effects become distinguishable. We also found that insufficient PN phasing accuracy can bias the inferred mass ratio.
 
 \textbf{Line-of-sight acceleration.} With Lalit Pathak and Achamveedu Gopakumar, we investigated the degeneracy between residual orbital eccentricity and line-of-sight acceleration (LOSA) induced by a possible massive companion in GW190814 [8]. My contributions included match tests, parameter estimation and interpretation. Using \texttt{IMRPhenomXPHM} augmented with leading-order LOSA and eccentricity corrections, we found a strong degeneracy between their effects on the inspiral phase, but no significant Bayesian evidence for either relative to the baseline model.
 
