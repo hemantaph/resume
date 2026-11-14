@@ -164,21 +164,21 @@
 \section{\sc Research Projects and Contributions}
 
 {\bf Gravitational wave strong lensing statistics:}
-Lensed GWs can probe distant compact binaries, lens populations, and cosmology; interpreting them requires reliable rates and population priors that include lensing and detector selection. I lead development of \texttt{ler}, a publicly available Monte Carlo framework for simulating detectable strongly lensed and unlensed GW populations and event rates (\href{https://ler.hemantaph.com/}{documentation}; \href{https://arxiv.org/abs/2407.07526}{Phurailatpam et al., 2026}), with Otto Akseli Hannuksela, Anupreeta More, David Keitel, Chris Van Den Broeck, and other collaborators. I implemented source and lens population models, elliptical power-law lenses with external shear, semi-analytical lens-equation solvers for computing image properties, numerical cross-sections and optical depths, and detector-selection effects.
+Lensed GWs can probe distant compact binaries, lens populations, and cosmology; interpreting them requires reliable rates and population priors that include lensing and detector selection. I lead development of \texttt{ler}, a publicly available Monte Carlo framework for simulating detectable strongly lensed and unlensed GW populations and event rates (\href{https://ler.hemantaph.com/}{documentation}; \href{https://arxiv.org/abs/2407.07526}{Phurailatpam et al., 2026}), with Otto Akseli Hannuksela, Anupreeta More, David Keitel, Chris Van Den Broeck, and other collaborators. My contributions include implementations of source and lens population models, elliptical power-law lenses with external shear, semi-analytical lens-equation solvers for computing image properties, numerical cross-sections and optical depths, and detector-selection effects.
 
 These statistics have been applied to validation of O3 lensing candidates~\href{https://arxiv.org/abs/2306.03827}{(Janquart et al., 2023)}, searches for subthreshold lensed counterparts~\href{https://arxiv.org/abs/2403.16532}{(Ng et al., 2025)}, and the rate and time delay terms entering Bayesian lensing posterior odds~\href{https://arxiv.org/abs/2510.15463}{(Hannuksela et al., 2026)}. I also implemented propagation of uncertainties in population hyperparameters and from finite sampling into rate calculations; further analysis and publication are ongoing.
 
 \textbf{SNR and detection probability:} Efficient SNR and detection probability calculations make large population simulations and repeated rate estimates computationally practical. I lead development of \texttt{gwsnr} with Otto Akseli Hannuksela (\href{https://gwsnr.hemantaph.com/}{documentation}; \href{https://arxiv.org/abs/2412.09888}{Phurailatpam and Hannuksela, 2024}). The Python package uses partial scaling interpolation and parallel processing of noise-weighted inner products to calculate signal-to-noise ratios, along with neural network methods to estimate detectability. I maintain the code, documentation, and user support for both packages.
 
 {\bf Multimessenger astronomy:}
-Lensed short gamma ray bursts (GRBs) can guide searches for GW counterparts below standard detection thresholds; statistical tests are needed to distinguish lensing from unrelated bursts with similar properties. With Anupreeta More, I developed forecasts for the detectability of lensed GW counterparts to lensed short GRBs and of GRB counterparts to lensed GW systems, using \texttt{ler} and \texttt{gwsnr}~\href{https://arxiv.org/abs/2502.02536}{(More and Phurailatpam, 2025)}. With Otto Akseli Hannuksela, Albert Kong and other collaborators, I am developing Bayesian posterior odds tests of whether multiple GRBs are lensed images of the same source, initially using sky localisation and observed time delays.
+Lensed short gamma ray bursts (GRBs) can guide searches for GW counterparts below standard detection thresholds; statistical tests are needed to distinguish lensing from unrelated bursts with similar properties. With Anupreeta More, we developed forecasts for the detectability of lensed GW counterparts to lensed short GRBs and of GRB counterparts to lensed GW systems, using \texttt{ler} and \texttt{gwsnr}~\href{https://arxiv.org/abs/2502.02536}{(More and Phurailatpam, 2025)}. With Otto Akseli Hannuksela, Albert Kong and other collaborators, we are developing Bayesian posterior odds tests of whether multiple GRBs are lensed images of the same source, initially using sky localisation and observed time delays.
 
 {\bf Modelling gravitational waves from binaries in eccentric orbits:}
-Residual orbital eccentricity probes compact binary formation channels; accurate waveforms are needed to measure it reliably and avoid biases in inferred source parameters. With Achamveedu Gopakumar, Maria Haney, Tjonnie Li, and Srishti Tiwari, I jointly developed \texttt{TaylorF2Ecck} and implemented it in a \texttt{LALSuite} fork~\href{https://arxiv.org/abs/2508.12697}{(Phurailatpam et al., 2026)}, building on our earlier work~\href{https://arxiv.org/abs/1905.07956}{(Tiwari et al., 2019)}. This analytical frequency domain inspiral approximant describes nonspinning compact binaries with low eccentricity ($e_0<0.1$, defined at $20~\mathrm{Hz}$). It extends \texttt{TaylorF2} by consistently including all leading order $e_0$ contributions from orbital dynamics, periastron advance, and GW emission, in the phase up to 3PN order and in amplitude at quadrupolar order.
+Residual orbital eccentricity probes compact binary formation channels; accurate waveforms are needed to measure it reliably and avoid biases in inferred source parameters. With Achamveedu Gopakumar, Maria Haney, Tjonnie Li, and Srishti Tiwari, we developed \texttt{TaylorF2Ecck} and implemented it in a \texttt{LALSuite} fork~\href{https://arxiv.org/abs/2508.12697}{(Phurailatpam et al., 2026)}, building on our earlier work~\href{https://arxiv.org/abs/1905.07956}{(Tiwari et al., 2019)}. This analytical frequency domain inspiral approximant describes nonspinning compact binaries with low eccentricity ($e_0<0.1$, defined at $20~\mathrm{Hz}$). It extends \texttt{TaylorF2} by consistently including all leading order $e_0$ contributions from orbital dynamics, periastron advance, and GW emission, in the phase up to 3PN order and in amplitude at quadrupolar order.
 
-I conducted Bayesian analyses of GW170817 and GW190425 and injection studies. We found no evidence for measurable eccentricity or detectable effects of periastron advance and additional harmonics; the injection studies established regimes in which these effects become distinguishable. We also found that insufficient PN phasing accuracy can bias the mass ratio posterior.
+I contributed to our Bayesian analyses of GW170817 and GW190425 and to injection studies. We found no evidence for measurable eccentricity or detectable effects of periastron advance and additional harmonics; the injection studies established regimes in which these effects become distinguishable. We also found that insufficient PN phasing accuracy can bias the mass ratio posterior.
 
-\textbf{Line of sight acceleration:} Joint inference of acceleration and eccentricity tests for a tertiary companion while accounting for their similar effects on the waveform. With Lalit Pathak and Achamveedu Gopakumar, we investigated the degeneracy between residual orbital eccentricity and line of sight acceleration (LOSA) induced by a massive companion in GW190814~\href{https://arxiv.org/abs/2605.21955}{(Pathak et al., 2026)}. I performed match tests and parameter estimation and contributed to interpretation. Using 32 seconds of data and \texttt{IMRPhenomXPHM} augmented with leading order LOSA and eccentricity corrections, we found a strong degeneracy between their effects on the inspiral phase, but no significant Bayesian evidence for either relative to the baseline model.
+\textbf{Line of sight acceleration:} Joint inference of acceleration and eccentricity tests for a tertiary companion while accounting for their similar effects on the waveform. With Lalit Pathak and Achamveedu Gopakumar, we investigated the degeneracy between residual orbital eccentricity and line of sight acceleration (LOSA) induced by a massive companion in GW190814~\href{https://arxiv.org/abs/2605.21955}{(Pathak et al., 2026)}. My contributions included match tests, parameter estimation and interpretation. Using 32 seconds of data and \texttt{IMRPhenomXPHM} augmented with leading order LOSA and eccentricity corrections, we found a strong degeneracy between their effects on the inspiral phase, but no significant Bayesian evidence for either relative to the baseline model.
 
 \section{\sc Future Work: Pledged and Proposed}
 
@@ -188,7 +188,7 @@ I conducted Bayesian analyses of GW170817 and GW190425 and injection studies. We
 
 \textbf{Cosmography using populations (proposed study).} Test the robustness of cosmological inference from lensed event fractions and time delay distributions under alternative source and lens populations, elliptical power law lenses with external shear, and detector selection. Use simulated catalogues to assess parameter bias, credible interval coverage, and degeneracies between cosmology and population assumptions.
 
-\textbf{Eccentric waveforms (planned collaborative development).} Shri Krishna Anand and Basundhara Ghosh, guided by Achamveedu Gopakumar, are incorporating spin effects into the eccentric waveform prescription, targeting 3PN phasing through $\mathcal{O}(e_0^6)$ and 1PN amplitudes through $\mathcal{O}(e_0^5)$. I will implement and validate these extensions using analytical checks, comparisons with independent models, and injection studies, and pursue official \texttt{LALSuite} integration. Further work will target eccentric phasing through at least 3.5PN order. Possible coordination with Chandra Kant Mishra and Kaushik Paul on these corrections is prospective. Extension through merger and ringdown is a later aim.
+\textbf{Eccentric waveforms (planned collaborative development).} Shri Krishna Anand and Basundhara Ghosh, guided by Achamveedu Gopakumar, are incorporating spin effects into the eccentric waveform prescription, targeting 3PN phasing through $\mathcal{O}(e_0^6)$ and 1PN amplitudes through $\mathcal{O}(e_0^5)$. I plan to contribute to implementing and validating these extensions using analytical checks, comparisons with independent models, and injection studies, and to pursue official \texttt{LALSuite} integration. Further work will target eccentric phasing through at least 3.5PN order. Possible coordination with Chandra Kant Mishra and Kaushik Paul on these corrections is prospective. Extension through merger and ringdown is a later aim.
 
 \textbf{Line of sight acceleration (planned extension).} Extend our GW190814 study to more events, using higher order eccentric corrections and a more general treatment of source acceleration that varies with time, such as \href{https://arxiv.org/abs/2604.00253}{Zhao et al. (2026)}.
 
@@ -204,12 +204,12 @@ LVK collaboration papers are not listed here. See the \href{https://github.com/h
 
 \begin{tabular}{@{}p{\dimexpr\linewidth-0.62in-3\tabcolsep\relax}p{0.62in}}
     L. Pathak, H. Phurailatpam, and A. Gopakumar, \textit{On the Presence of a Tertiary Compact Object in GW190814}, The Astrophysical Journal \textbf{1009}, 214 (2026). DOI: \href{https://doi.org/10.3847/1538-4357/ae9cae}{10.3847/1538-4357/ae9cae}; \href{https://arxiv.org/abs/2605.21955}{arXiv:2605.21955}.
-    \par\smallskip Contribution: Performed match tests and parameter estimation; interpreted results and compared them with related work. & \raggedright Sep 2026
+    \par\smallskip Contribution: Contributed match tests, parameter estimation, and interpretation, including comparison with related work. & \raggedright Sep 2026
 \end{tabular}
 
 \begin{tabular}{@{}p{\dimexpr\linewidth-0.62in-3\tabcolsep\relax}p{0.62in}}
     H. Phurailatpam et al., \textit{Constraining initial orbital eccentricity of inspiral-dominated gravitational-wave events with an analytic approximant}, Phys. Rev. D \textbf{114}(6), 063003 (2026). DOI: \href{https://doi.org/10.1103/94fx-wnjx}{10.1103/94fx-wnjx}; \href{https://arxiv.org/abs/2508.12697}{arXiv:2508.12697}.
-    \par\smallskip Contribution: Lead author; waveform implementation, data analysis, and interpretation of results. Achamveedu Gopakumar also contributed significantly to manuscript writing and interpretation of results. & \raggedright Sep 2026
+    \par\smallskip Contribution: Lead author; contributed to waveform implementation, data analysis, and interpretation of results. Achamveedu Gopakumar also contributed significantly to manuscript writing and interpretation of results. & \raggedright Sep 2026
 \end{tabular}
 
 \begin{tabular}{@{}p{\dimexpr\linewidth-0.62in-3\tabcolsep\relax}p{0.62in}}
@@ -235,7 +235,7 @@ LVK collaboration papers are not listed here. See the \href{https://github.com/h
 
 \begin{tabular}{@{}p{\dimexpr\linewidth-0.62in-3\tabcolsep\relax}p{0.62in}}
     A. More and H. Phurailatpam, \textit{Gravitational lensing: towards combining the multi-messengers}, Phil. Trans. R. Soc. A \textbf{383}(2295), 20240127 (2025). DOI: \href{https://doi.org/10.1098/rsta.2024.0127}{10.1098/rsta.2024.0127}; \href{https://arxiv.org/abs/2502.02536}{arXiv:2502.02536}.
-    \par\smallskip Contribution: Developed detectability forecasts for lensed GW and GRB counterparts using ler and gwsnr. & \raggedright May 2025
+    \par\smallskip Contribution: Contributed to detectability forecasts for lensed GW and GRB counterparts using ler and gwsnr. & \raggedright May 2025
 \end{tabular}
 
 \begin{tabular}{@{}p{\dimexpr\linewidth-0.62in-3\tabcolsep\relax}p{0.62in}}
@@ -365,7 +365,7 @@ Placed second in the Science Quiz competition at Science Meet Manipur, sponsored
 \textbf{Python:} Bayesian GW parameter estimation; development and maintenance of \texttt{ler} and \texttt{gwsnr}; numerical simulations and data analysis. CPU/GPU optimisation using tools including JAX and Apple MLX.
 
 \begin{samepage}
-\textbf{C:} Implementation of the \texttt{TaylorF2Ecck} GW waveform in a \texttt{LALSuite} fork. \textbf{C++:} Cosmic ray data analysis during the AMS-02 internship at KIT.
+\textbf{C:} Contributed to implementation of the \texttt{TaylorF2Ecck} GW waveform in a \texttt{LALSuite} fork. \textbf{C++:} Cosmic ray data analysis during the AMS-02 internship at KIT.
 \par\end{samepage}
 
 \textbf{Machine learning:} Artificial neural networks for detectability estimates in \texttt{gwsnr}. \textbf{Mathematica:} Analytical waveform calculations and independent cross checks.
@@ -378,7 +378,7 @@ Placed second in the Science Quiz competition at Science Meet Manipur, sponsored
 
 {\bf Operating Systems:} macOS, Windows, Linux.
 
-\vspace{.2in}
+\newpage
 \section{\sc Internships}
 
 \begin{tabular}{@{}p{\dimexpr\linewidth-0.62in-3\tabcolsep\relax}p{0.62in}}
