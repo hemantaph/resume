@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+\newcommand{\documenttype}{Document}
+\usepackage[a4paper,margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,microtype,xcolor,enumitem,tabularx,titlesec,fancyhdr,hyperref}
+\definecolor{accent}{HTML}{315B8A}
+\definecolor{link}{HTML}{5B4F7A}
+\hypersetup{colorlinks=true,urlcolor=link,linkcolor=link,citecolor=link,pdfauthor={Phurailatpam Hemantakumar}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\setlength{\headheight}{14pt}\setlength{\emergencystretch}{2em}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\setlist[itemize]{leftmargin=16pt,itemsep=2pt,topsep=3pt,parsep=0pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Phurailatpam Hemantakumar}\fancyhead[R]{\small\documenttype}\fancyfoot[R]{\small\thepage}\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\firstheading}[2]{\thispagestyle{plain}{\LARGE\bfseries\color{accent}#1}\par\vspace{3pt}{#2}\par\vspace{4pt}{\color{accent}\hrule}\vspace{8pt}}
+\newcommand{\dated}[2]{\par\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}#1&#2\end{tabularx}\par}
+\newcommand{\contact}{\href{mailto:hemantaph@link.cuhk.edu.hk}{hemantaph@link.cuhk.edu.hk}\quad|\quad +852 9867 8178\quad|\quad\href{https://hemantaph.com}{hemantaph.com}\\Department of Physics, The Chinese University of Hong Kong}
+\renewcommand{\documenttype}{Cover letter}
+\hypersetup{pdftitle={Cover letter | Monash OzGrav Research Fellow 698908}}
+\setlength{\parskip}{7pt}
+\begin{document}
+\firstheading{Phurailatpam Hemantakumar}{\contact}
+21 November 2026
+
+Selection Committee\\
+Research Fellow -- Gravitational Wave Discovery (OzGrav), Job No. 698908\\
+School of Physics and Astronomy, Monash University\\
+Clayton, Victoria, Australia
+
+Dear Members of the Selection Committee,
+
+I am applying for the Research Fellow position in Gravitational Wave Discovery (OzGrav), Job No. 698908, at Monash University. I completed my PhD research and examination in Physics at The Chinese University of Hong Kong under the supervision of Otto Akseli Hannuksela. The formal award of my degree is expected in early 2027. My research focuses on strong gravitational-wave (GW) lensing statistics, modelling gravitational waves from binaries in eccentric orbits, and Bayesian data analysis. I also develop computational tools for calculating signal-to-noise ratios and estimating detection probabilities in gravitational-wave population simulations.
+
+I lead the development and maintenance of \href{https://ler.hemantaph.com/}{\texttt{ler}} within the LIGO--Virgo--KAGRA (LVK) lensing group. It is an open-source Monte Carlo framework for simulating strongly lensed and unlensed compact-binary populations and predicting detectable event rates (\href{https://doi.org/10.21105/joss.07420}{JOSS, 2026}). I also lead development of \href{https://gwsnr.hemantaph.com/}{\texttt{gwsnr}} for efficient signal-to-noise ratio and detection-probability calculations in population simulations. These tools have supported lensing candidate assessment, searches for faint counterparts, and forecasts of lensed GW and gamma-ray burst counterparts. I have implemented a framework for propagating population uncertainties into lensing-rate predictions and am working on star-formation-informed binary-black-hole merger rates.
+
+I co-developed \texttt{TaylorF2Ecck}, an analytic, frequency-domain post-Newtonian extension of \texttt{TaylorF2} for eccentric inspirals. I implemented it in a \texttt{LALSuite} fork and performed Bayesian analyses of GW170817 and GW190425 as part of this collaborative study (\href{https://doi.org/10.1103/94fx-wnjx}{Phys. Rev. D, 2026}). In a separate study, we investigated the degeneracy between orbital eccentricity and line-of-sight acceleration in GW190814.
+
+At Monash's OzGrav node, I would contribute to LVK data analysis and compact-binary population studies. I would use GW population simulations and detector-selection calculations to test how uncertainties in the binary-black-hole merger history affect predicted lensing rates. I would welcome discussions with Eric Thrane, Paul Lasky and Ilya Mandel on compact-binary populations and Bayesian inference, and with OzGrav colleagues on waveform systematics in tests of gravity.
+
+As a member of the LIGO Scientific Collaboration, I intend to continue my LVK/GRASP responsibilities, including leadership of \texttt{ler} and contributions towards GWTC-6 and GWTC-7. I have mentored undergraduate and graduate researchers, taught scientific Python, and conducted GW data-analysis workshops, and would welcome opportunities to contribute to similar activities at Monash. I enclose my CV and response to the key selection criteria. My separate research statement describes my current work and outlines possible future projects at Monash.
+
+Thank you for considering my application.
+
+Sincerely,\\
+Phurailatpam Hemantakumar
+\end{document}

@@ -1,0 +1,61 @@
+\documentclass[11pt]{article}
+\newcommand{\documenttype}{Document}
+\usepackage[a4paper,margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,microtype,xcolor,enumitem,tabularx,titlesec,fancyhdr,hyperref}
+\definecolor{accent}{HTML}{315B8A}
+\definecolor{link}{HTML}{5B4F7A}
+\hypersetup{colorlinks=true,urlcolor=link,linkcolor=link,citecolor=link,pdfauthor={Phurailatpam Hemantakumar}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\setlength{\headheight}{14pt}\setlength{\emergencystretch}{2em}
+\titleformat{\section}{\normalsize\bfseries\color{accent}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\setlist[itemize]{leftmargin=16pt,itemsep=2pt,topsep=3pt,parsep=0pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\href{https://hemantaph.com}{Phurailatpam Hemantakumar}}\fancyhead[R]{\small\documenttype}\fancyfoot[R]{\small\thepage}\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\firstheading}[2]{\thispagestyle{plain}{\LARGE\bfseries\color{accent}#1}\par\vspace{3pt}{#2}\par\vspace{4pt}{\color{accent}\hrule}\vspace{8pt}}
+\newcommand{\dated}[2]{\par\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}#1&#2\end{tabularx}\par}
+\newcommand{\contact}{\href{mailto:hemantaph@link.cuhk.edu.hk}{hemantaph@link.cuhk.edu.hk}\quad|\quad +852 9867 8178\quad|\quad\href{https://hemantaph.com}{hemantaph.com}\\Department of Physics, The Chinese University of Hong Kong}
+\renewcommand{\documenttype}{Selection criteria}
+\hypersetup{pdftitle={Response to key selection criteria | Monash OzGrav 698908}}
+\setlength{\parskip}{5pt}
+\begin{document}
+\firstheading{Response to key selection criteria}{\href{https://hemantaph.com}{Phurailatpam Hemantakumar}\quad|\quad Research Fellow -- Gravitational Wave Discovery (OzGrav)\\Monash University, Job No. 698908\quad|\quad 21 November 2026}
+
+\section*{1. A doctoral qualification in the relevant discipline or a closely related field}
+I have completed the research and examination requirements for a PhD in Physics at The Chinese University of Hong Kong (CUHK), supervised by Dr Otto Akseli Hannuksela. My thesis, \textit{Statistical and Data Analysis of Eccentric and Lensed Gravitational Waves}, investigates statistical predictions for gravitational-wave (GW) lensing and the modelling and inference of eccentric compact-binary signals. The formal degree award is expected in early 2027. My earlier qualifications are an M.Sc. in Physics from IIT Bombay and a B.Sc. (Hons.) in Physics from the University of Delhi.
+
+\section*{2. Experience in gravitational-wave astronomy, general relativity, or high-energy astrophysics (or a closely related field)}
+My research is in GW astronomy, particularly strong gravitational lensing, compact-binary populations, signal detectability, and waveform modelling. I lead development of \href{https://ler.hemantaph.com/}{\texttt{ler}}, which models lensed and unlensed compact-binary populations and uses source and lens population models and detector selection to predict detectable event rates. I also lead development of \href{https://gwsnr.hemantaph.com/}{\texttt{gwsnr}} for efficient signal-to-noise ratio and detection-probability calculations. As a member of the LIGO Scientific Collaboration, I contribute lensing statistics to analyses of observed events and LVK population studies.
+
+I co-developed \texttt{TaylorF2Ecck}, an analytic post-Newtonian model for low-eccentricity inspirals, implemented it in a \texttt{LALSuite} fork, and performed Bayesian parameter estimation for GW170817 and GW190425. In a separate study with Lalit Pathak and Achamveedu Gopakumar, I investigated the degeneracy between orbital eccentricity and line-of-sight acceleration in GW190814.
+
+\section*{3. Demonstrated analytical and manuscript preparation skills, including a track record of refereed research publications}
+For \texttt{TaylorF2Ecck}, I contributed waveform implementation, consistency checks, injections, and parameter-estimation analyses used to assess eccentricity constraints in inspiral-dominated signals. For GW lensing, I developed Monte Carlo implementations of elliptical power-law lenses with external shear and numerical cross-sections, and studied the impact of population and detector selection on detection rates and lensing priors.
+
+I am lead author of refereed papers in \href{https://doi.org/10.1103/94fx-wnjx}{\textit{Physical Review D}} on eccentric waveforms and the \href{https://doi.org/10.21105/joss.07420}{\textit{Journal of Open Source Software}} on \texttt{ler}. I wrote the \texttt{ler} paper. For the waveform paper, Achamveedu Gopakumar also contributed substantially to the writing and interpretation. My CV includes the full publication list and describes my contributions.
+
+\section*{4. Ability to solve complex problems using discretion, innovation and diagnostic skills and/or expertise}
+In \texttt{ler}, I implemented numerical strong-lensing cross-sections and optical depths, and solved the lens equation to obtain image properties. In \texttt{gwsnr}, I implemented partial-scaling interpolation to reduce the cost of repeated signal-to-noise ratio calculations. Direct waveform inner products provide a reference for checking the interpolation.
+
+In waveform analysis, I use injection studies and comparisons with other approximants to test where modelling assumptions affect the inferred parameters. For example, our eccentric-inspiral study showed that insufficient post-Newtonian phasing accuracy can bias the inferred mass ratio.
+
+\newpage
+\section*{5. Well-developed planning and organisational skills, including prioritising tasks and meeting deadlines}
+I coordinate software development, validation, documentation, and scientific analyses across several collaborations. I have managed work on \texttt{ler} and \texttt{gwsnr} alongside my PhD, refereed publications, gravitational-wave analyses, student mentoring, and invited workshops. My ongoing LVK/GRASP responsibilities include planned \texttt{ler} and \texttt{gwsnr} contributions towards GWTC-6 and GWTC-7.
+
+In 2026 I completed two lead-author papers while maintaining both software packages. During the same year, I mentored Jihwan Park on a lensing-rate project from January to May and taught scientific Python at the CUHK summer school in June.
+
+\section*{6. Excellent written and verbal communication, including clear and succinct reports and documents}
+I have written and co-written refereed articles, software papers, scientific documentation, and research presentations for the GW community. I maintain user-facing documentation for \texttt{ler} and \texttt{gwsnr}, translating specialised numerical methods and modelling assumptions into examples that other researchers can reproduce. My talks include an East-Asia GW Science Workshop presentation on \texttt{ler} (Nagoya, 2025), a seminar on detectable lensed GW populations (IUCAA, 2026), and an LVK Collaboration Meeting poster on \texttt{TaylorF2Ecck} (Pune, 2026).
+
+I taught \emph{Python Foundations for Scientific Problem Solving} at the CUHK SURIP Summer School and conducted GW data-analysis workshops at Manipur University in November 2025 and October 2026.
+
+\section*{7. Awareness of confidentiality, privacy and appropriate information handling}
+Work within the LIGO Scientific Collaboration and multi-institutional research projects requires a clear distinction between public results and internal or unpublished analyses. I understand the importance of respecting collaboration review and release procedures, appropriately restricting circulation of non-public material, and giving due credit to colleagues. Before using an internal candidate plot in a seminar, I would check its release status with the analysis team. When mentoring students, I would share individual feedback privately and agree with the student and co-authors before presenting unpublished results. At Monash I would follow the University and OzGrav procedures for data access and publication approval.
+
+\section*{8. Demonstrated capacity to work collegially with other staff}
+I lead \texttt{ler} development with colleagues at CUHK and other LVK institutions. I work with Achamveedu Gopakumar, Maria Haney, Tjonnie Li and Srishti Tiwari on eccentric-waveform modelling, and with Anupreeta More on multimessenger lensing. With Chunglee Kim and Jiyun Park at Ewha Womans University, I am studying star-formation-informed binary-black-hole merger histories.
+
+I have mentored undergraduate, master's and early-stage PhD researchers. For example, I mentored Leo C. Y. Ng during the CUHK Summer Undergraduate Research Exchange and contributed lensing forecasts to his \href{https://doi.org/10.1093/mnras/staf874}{first-author paper on faint lensed counterparts}. At Monash's OzGrav node, I would contribute to shared analyses, software development and postgraduate mentoring.
+
+\end{document}

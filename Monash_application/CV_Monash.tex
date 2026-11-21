@@ -1,0 +1,128 @@
+\documentclass[10pt]{article}
+\newcommand{\documenttype}{Document}
+\usepackage[a4paper,margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,microtype,xcolor,enumitem,tabularx,titlesec,fancyhdr,hyperref}
+\definecolor{accent}{HTML}{315B8A}
+\definecolor{link}{HTML}{5B4F7A}
+\hypersetup{colorlinks=true,urlcolor=link,linkcolor=link,citecolor=link,pdfauthor={Phurailatpam Hemantakumar}}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\setlength{\headheight}{14pt}\setlength{\emergencystretch}{2em}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+\setlist[itemize]{leftmargin=16pt,itemsep=2pt,topsep=3pt,parsep=0pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\href{https://hemantaph.com}{Phurailatpam Hemantakumar}}\fancyhead[R]{\small\documenttype}\fancyfoot[R]{\small\thepage}\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\firstheading}[2]{\thispagestyle{plain}{\LARGE\bfseries\color{accent}#1}\par\vspace{3pt}{#2}\par\vspace{4pt}{\color{accent}\hrule}\vspace{8pt}}
+\newcommand{\dated}[2]{\par\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}#1&#2\end{tabularx}\par}
+\newcommand{\contact}{\href{mailto:hemantaph@link.cuhk.edu.hk}{hemantaph@link.cuhk.edu.hk}\quad|\quad +852 9867 8178\quad|\quad\href{https://hemantaph.com}{hemantaph.com}\\Department of Physics, The Chinese University of Hong Kong}
+\renewcommand{\documenttype}{Curriculum vitae}
+\hypersetup{pdftitle={Curriculum vitae | Phurailatpam Hemantakumar | Monash OzGrav}}
+\setlength{\parskip}{2pt}
+\begin{document}
+\firstheading{\href{https://hemantaph.com}{Phurailatpam Hemantakumar}}{\contact\\Citizenship: Indian\quad|\quad\href{https://github.com/hemantaph}{github.com/hemantaph}}
+\section*{Research interests}
+Strong gravitational-wave lensing statistics, compact-binary population simulations, modelling gravitational waves from binaries in eccentric orbits, Bayesian data analysis, and multimessenger lensing.
+\section*{Education}
+\dated{\textbf{PhD in Physics}, The Chinese University of Hong Kong}{2020--2026}
+Thesis: \textit{Statistical and Data Analysis of Eccentric and Lensed Gravitational Waves}. Supervisor: Otto Akseli Hannuksela. PhD research and examination completed. Formal degree award expected in early 2027.
+\dated{\textbf{M.Sc. in Physics}, Indian Institute of Technology Bombay}{2016--2018}
+\dated{\textbf{B.Sc. (Hons.) in Physics}, Hindu College, University of Delhi}{2012--2015}
+\section*{Research and scientific software}
+\textbf{Strong gravitational-wave lensing statistics.} Lead developer of \href{https://ler.hemantaph.com/}{\texttt{ler}}, a Monte Carlo framework for strongly lensed and unlensed compact-binary populations and detectable rates, with Otto Akseli Hannuksela, Anupreeta More, David Keitel, Chris Van Den Broeck, and other collaborators. Contributed implementations of source and lens population models, elliptical power-law lenses with external shear, semi-analytical lens-equation solvers for computing image properties, numerical cross-sections and optical depths, and detector-selection effects. Implemented propagation of population-hyperparameter and finite-sampling uncertainties; analysis and publication are ongoing. Working with Chunglee Kim and Jiyun Park on star-formation-informed merger rates.
+
+\textbf{SNR and detection probability.} Lead developer of \href{https://gwsnr.hemantaph.com/}{\texttt{gwsnr}}, in collaboration with Otto Akseli Hannuksela, using partial-scaling interpolation and parallel waveform inner products for signal-to-noise ratio calculations, with neural-network methods for detectability estimates. Maintain code, documentation, and user support for both packages.
+
+\textbf{Eccentric waveform development and implementation.} With Achamveedu Gopakumar, Maria Haney, Tjonnie Li, and Srishti Tiwari, co-developed \href{https://arxiv.org/abs/2508.12697}{\texttt{TaylorF2Ecck}}, an analytic, frequency-domain post-Newtonian extension of \texttt{TaylorF2} for nonspinning, low-eccentricity inspirals, based on our earlier work, \href{https://arxiv.org/abs/1905.07956}{Tiwari et al. (2019)}. In this collaborative study, I implemented it in a \texttt{LALSuite} fork and performed Bayesian analyses of GW170817 and GW190425 and injection studies of waveform accuracy. In a separate study with Lalit Pathak and Achamveedu Gopakumar, we investigated the degeneracy between \href{https://arxiv.org/abs/2605.21955}{eccentricity and line-of-sight acceleration in GW190814}.
+
+\textbf{Multimessenger lensing.} With Anupreeta More, we developed \href{https://arxiv.org/abs/2502.02536}{detectability forecasts for lensed short gamma-ray bursts and binary-neutron-star GW counterparts}. In collaboration with Otto Akseli Hannuksela, Albert Kong, and other collaborators, we are developing Bayesian posterior-odds tests for multiple GRBs using sky-localisation and time-delay information.
+
+\section*{LIGO--Virgo--KAGRA collaboration and research service}
+Member of the LIGO Scientific Collaboration. LVK/GRASP commitments include leadership, development, validation, documentation and user support for \texttt{ler}, including work towards GWTC-6 and GWTC-7, and continuing \texttt{gwsnr} development. I supplied magnification-ratio and time-delay distributions for O3 lensing follow-up, and rate and time-delay statistics for Bayesian lensing posterior odds.
+\section*{Computational and statistical methods}
+\textbf{Scientific programming.} Python for population simulations and Bayesian inference, C for waveform implementation, Mathematica for analytical cross-checks, and C++ for AMS-02 cosmic-ray data analysis.\\
+\textbf{Inference and simulation:} Bayesian parameter estimation and model comparison; nested sampling; Monte Carlo and importance sampling; selection effects; statistical population modelling; numerical integration and interpolation; accelerated CPU/GPU computation. Tools: \texttt{bilby}, \texttt{LALSuite}, Git, Linux, and \LaTeX.
+\newpage
+\section*{Research mentoring, teaching, and outreach}
+\dated{\textbf{Jiyun Park}, PhD student, Ewha Womans University}{Oct 2026--present}
+Mentoring on star-formation-informed binary-black-hole merger densities and GW lensing rates.
+\dated{\textbf{Jihwan Park}, M.Sc. student, Ewha Womans University}{Jan--May 2026}
+Mentored a project on data-driven predictions of GW lensing rates.
+\dated{\textbf{Yiwei Li}, CUHK SURIP}{May--Jun 2024}
+Supervised research on \texttt{ler} statistics and documentation, and galaxy-cluster lensing.
+
+\textbf{Additional mentoring:} Brian Hiu Yeung Cheng (CUHK SURE, Apr--Jun 2024), Laura E. Uronen (early PhD, Aug--Oct 2023), and Leo C. Y. Ng (CUHK SURE, Feb--Jun 2023). Work with \href{https://arxiv.org/abs/2406.14257}{Uronen} and \href{https://arxiv.org/abs/2403.16532}{Ng} led to co-authored publications in 2025.
+
+\textbf{Teaching assistant, CUHK:} General Physics for Engineers (2020); Astronomy (2020--2022); Engineering Physics: Mechanics and Thermodynamics (2021).
+
+\textbf{Workshop instruction:} Served as a resource person and conducted GW data-analysis workshops at Manipur University (Nov 2025 and 20--21 Oct 2026). Taught \href{https://gw.phy.cuhk.edu.hk/activities/surip-summer-school-2026/}{\textit{Python Foundations for Scientific Problem Solving}} at the CUHK SURIP Summer School (Jun 2026); conducted GW sessions and seminars at Dhanamanjuri University (Nov 2025).
+\section*{Selected seminars and conference presentations}
+\begin{itemize}
+\item \textbf{Oct 2026:} \textit{Constraining Gravitational-Wave Events}, seminar, RIST and Manipur University.
+\item \textbf{Sep 2026:} \textit{Detectable Strongly Lensed Gravitational Waves: Populations, Rates, and Selection Effects}, seminar, IUCAA, Pune.
+\item \textbf{Sep 2026:} \texttt{TaylorF2Ecck}, poster, LVK Collaboration Meeting, Pune.
+\item \textbf{Dec 2025:} \texttt{ler}, talk, East-Asia Gravitational-Wave Science Workshop, Nagoya.
+\item \textbf{Nov 2022:} Eccentricity and subdominant harmonics in GW parameter estimation, invited talk, 6th Workshop on Gravitational Waves, Seoul National University.
+\item \textbf{Jan 2022:} \textit{Nested Sampling: An insight on the Bilby parameter estimation of gravitational waves}, invited talk, GWnext 2022.
+\end{itemize}
+\section*{Awards and earlier research}
+Postgraduate studentship, CUHK (2020); Karlsruhe House of Young Scientists internship grant (2017); DST INSPIRE Fellowship, Government of India (2012--2016); State Merit Scholarship, Manipur (2012--2015). Research internship at Karlsruhe Institute of Technology (2017): AMS-02 cosmic-ray analysis.
+\section*{Referees}
+\textbf{Achamveedu Gopakumar} (waveform collaborator) \quad \href{mailto:gopu@tifr.res.in}{gopu@tifr.res.in}\\
+Department of Astronomy and Astrophysics, Tata Institute of Fundamental Research, Mumbai
+
+\smallskip
+\textbf{Tjonnie Li} (waveform collaborator) \quad \href{mailto:tjonnie.li@kuleuven.be}{tjonnie.li@kuleuven.be}\\
+KU Leuven, Belgium
+
+\smallskip
+\textbf{Otto Akseli Hannuksela} (PhD supervisor) \quad \href{mailto:hannuksela@phy.cuhk.edu.hk}{hannuksela@phy.cuhk.edu.hk}\\
+Department of Physics, The Chinese University of Hong Kong
+
+\smallskip
+\textbf{Chunglee Kim} (research collaborator) \quad \href{mailto:chunglee.kim@ewha.ac.kr}{chunglee.kim@ewha.ac.kr}\\
+Department of Physics, Ewha Womans University
+\newpage
+\section*{Publications and research products}
+Published as H. Phurailatpam, Hemantakumar Phurailatpam, Hemanta Phurailatpam, or Phurailatpam Hemanta or Phurailatpam Hemantakumar. All papers below include the applicant as an author; author lists are abbreviated with et al. where indicated.
+\par See the \href{https://github.com/hemantaph/resume/blob/main/LVK_resume_common/LVK_Collaboration_Publications.pdf}{separate LVK collaboration publication list on GitHub}.
+\setlist[enumerate]{leftmargin=20pt,itemsep=4pt,topsep=3pt,parsep=0pt}
+\section*{Refereed publications}
+\begin{enumerate}
+\item \textbf{H. Phurailatpam} et al. (2026). \href{https://doi.org/10.1103/94fx-wnjx}{\textit{Constraining initial orbital eccentricity of inspiral-dominated gravitational-wave events with an analytic approximant}}. Physical Review D \textbf{114}(6), 063003. \href{https://doi.org/10.1103/94fx-wnjx}{doi:\nolinkurl{10.1103/94fx-wnjx}}. \href{https://arxiv.org/abs/2508.12697}{arXiv:2508.12697}.\\\emph{Contribution: Lead author; contributed to waveform implementation, data analysis, and interpretation of results. Achamveedu Gopakumar also contributed significantly to manuscript writing and interpretation of results.}
+\item \textbf{H. Phurailatpam} et al. (2026). \href{https://doi.org/10.21105/joss.07420}{\textit{ler: LVK (LIGO-Virgo-KAGRA collaboration) event (compact-binary mergers) rate calculator and simulator}}. Journal of Open Source Software \textbf{11}(124), 7420. \href{https://doi.org/10.21105/joss.07420}{doi:\nolinkurl{10.21105/joss.07420}}. \href{https://arxiv.org/abs/2407.07526}{arXiv:2407.07526}.\\\emph{Contribution: Lead developer, project maintainer and leader, and manuscript writer.}
+\item L. Pathak, \textbf{H. Phurailatpam}, and A. Gopakumar (2026). \href{https://arxiv.org/abs/2605.21955}{\textit{On the Presence of a Tertiary Compact Object in GW190814}}. The Astrophysical Journal \textbf{1009}, 214. \href{https://doi.org/10.3847/1538-4357/ae9cae}{doi:\nolinkurl{10.3847/1538-4357/ae9cae}}. \href{https://arxiv.org/abs/2605.21955}{arXiv:2605.21955}.\\\emph{Contribution: Contributed match tests, parameter estimation, and interpretation, including comparison with related work.}
+\item O. A. Hannuksela et al. (2026). \href{https://doi.org/10.3847/1538-4357/ae5816}{\textit{Strong Gravitational-wave Lensing Posterior Odds}}. The Astrophysical Journal \textbf{1002}(1), 42. \href{https://doi.org/10.3847/1538-4357/ae5816}{doi:\nolinkurl{10.3847/1538-4357/ae5816}}. \href{https://arxiv.org/abs/2510.15463}{arXiv:2510.15463}.\\\emph{Contribution: Provided lensing-population statistics for the rate and time-delay terms in posterior odds.}
+\item L. C. Y. Ng et al. (2025). \href{https://doi.org/10.1093/mnras/staf874}{\textit{Uncovering faint lensed gravitational-wave signals and reprioritizing their follow-up analysis using galaxy lensing forecasts with detected counterparts}}. Monthly Notices of the Royal Astronomical Society \textbf{540}(4), 2937--2951. \href{https://doi.org/10.1093/mnras/staf874}{doi:\nolinkurl{10.1093/mnras/staf874}}. \href{https://arxiv.org/abs/2403.16532}{arXiv:2403.16532}.\\\emph{Contribution: Contributed lensing forecasts and mentored Leo C. Y. Ng during the project.}
+\item A. More and \textbf{H. Phurailatpam} (2025). \href{https://doi.org/10.1098/rsta.2024.0127}{\textit{Gravitational lensing: towards combining the multi-messengers}}. Philosophical Transactions of the Royal Society A \textbf{383}(2295), 20240127. \href{https://doi.org/10.1098/rsta.2024.0127}{doi:\nolinkurl{10.1098/rsta.2024.0127}}. \href{https://arxiv.org/abs/2502.02536}{arXiv:2502.02536}.\\\emph{Contribution: Contributed to detectability forecasts for lensed GW and GRB counterparts using ler and gwsnr.}
+\item G. P. Smith et al. (2025). \href{https://doi.org/10.1098/rsta.2024.0134}{\textit{Multi-messenger gravitational lensing}}. Philosophical Transactions of the Royal Society A \textbf{383}(2295), 20240134. \href{https://doi.org/10.1098/rsta.2024.0134}{doi:\nolinkurl{10.1098/rsta.2024.0134}}. \href{https://arxiv.org/abs/2503.19973}{arXiv:2503.19973}.
+\item L. E. Uronen et al. (2025). \href{https://doi.org/10.1098/rsta.2024.0152}{\textit{Finding black holes: an unconventional multi-messenger}}. Philosophical Transactions of the Royal Society A \textbf{383}(2294), 20240152. \href{https://doi.org/10.1098/rsta.2024.0152}{doi:\nolinkurl{10.1098/rsta.2024.0152}}. \href{https://arxiv.org/abs/2406.14257}{arXiv:2406.14257}.\\\emph{Contribution: Provided early-PhD research guidance to Laura E. Uronen and co-authored the study.}
+\item J. Janquart et al. (2025). \href{https://doi.org/10.1093/mnras/staf049}{\textit{What is the nature of GW230529? An exploration of the gravitational lensing hypothesis}}. Monthly Notices of the Royal Astronomical Society \textbf{537}(2), 1001--1014. \href{https://doi.org/10.1093/mnras/staf049}{doi:\nolinkurl{10.1093/mnras/staf049}}. \href{https://arxiv.org/abs/2409.07298}{arXiv:2409.07298}.\\\emph{Contribution: Provided lensing statistics for the binary-neutron-star interpretation of GW230529.}
+\item I. Gupta et al. (2024). \href{https://doi.org/10.1088/1361-6382/ad7b99}{\textit{Characterizing gravitational wave detector networks: from A$^\sharp$ to cosmic explorer}}. Classical and Quantum Gravity \textbf{41}(24), 245001. \href{https://doi.org/10.1088/1361-6382/ad7b99}{doi:\nolinkurl{10.1088/1361-6382/ad7b99}}. \href{https://arxiv.org/abs/2307.10421}{arXiv:2307.10421}.\\\emph{Contribution: Provided lensing statistics and forecasts for future detectors.}
+\item J. Janquart et al. (2023). \href{https://doi.org/10.1093/mnras/stad2909}{\textit{Follow-up analyses to the O3 LIGO--Virgo--KAGRA lensing searches}}. Monthly Notices of the Royal Astronomical Society \textbf{526}(3), 3832--3860. \href{https://doi.org/10.1093/mnras/stad2909}{doi:\nolinkurl{10.1093/mnras/stad2909}}. \href{https://arxiv.org/abs/2306.03827}{arXiv:2306.03827}.\\\emph{Contribution: Provided lensing-population statistics, magnification ratios, and time delays.}
+\item S. Tiwari et al. (2019). \href{https://doi.org/10.1103/PhysRevD.99.124008}{\textit{Ready-to-use Fourier domain templates for compact binaries inspiraling along moderately eccentric orbits}}. Physical Review D \textbf{99}(12), 124008. \href{https://doi.org/10.1103/PhysRevD.99.124008}{doi:\nolinkurl{10.1103/PhysRevD.99.124008}}. \href{https://arxiv.org/abs/1905.07956}{arXiv:1905.07956}.\\\emph{Contribution: Performed parallel waveform calculations and cross-checks in Mathematica notebooks; contributed to manuscript writing, particularly the equations.}
+\end{enumerate}
+\section*{Preprints}
+\begin{enumerate}[start=13]
+\item L. Uronen, T. Li, J. Janquart, \textbf{H. Phurailatpam}, J. Poon, T. Collett, L. Koopmans, and O. Hannuksela (2026). \textit{Joint Bayesian Source and Lens Reconstruction for Multi-messenger Binary Black Holes}. \href{https://arxiv.org/abs/2603.09794}{arXiv:2603.09794}. Preprint; submitted to the MaxEnt 2025 proceedings.
+\item \textbf{H. Phurailatpam} and O. A. Hannuksela (2024, revised 2026). \textit{gwsnr: A Python package for efficient signal-to-noise ratio calculations of gravitational waves}. \href{https://arxiv.org/abs/2412.09888}{arXiv:2412.09888}.\\\emph{Contribution: Lead developer, project maintainer and leader, and manuscript writer.}
+\end{enumerate}
+\section*{White paper}
+\begin{enumerate}[start=15]
+\item M. Evans et al. (2023). \href{https://arxiv.org/abs/2306.13745}{\textit{Cosmic Explorer: A Submission to the NSF MPSAC ngGW Subcommittee}}. \href{https://arxiv.org/abs/2306.13745}{arXiv:2306.13745}.\\\emph{Contribution: Provided lensing statistics and forecasts.}
+\end{enumerate}
+\section*{Conference proceedings}
+\begin{enumerate}[start=16]
+\item Bhuvnesh and \textbf{H. Phurailatpam}. \href{https://www.ijert.org/measurement-of-time-period-of-a-simple-pendulum-using-an-electronic-circuit}{\textit{Measurement of Time Period of A Simple Pendulum using an Electronic Circuit}}. IJERT, NCETRASECT--2015, vol.\ 3, issue 23. Proceedings year 2015, first published online in 2018. \href{https://www.ijert.org/measurement-of-time-period-of-a-simple-pendulum-using-an-electronic-circuit}{Publisher}.\\\emph{Contribution: Developed the laser circuit and contributed to manuscript writing.}
+\end{enumerate}
+\section*{Science writing}
+\begin{enumerate}[start=17]
+\item \textbf{H. Phurailatpam} (2012). \textit{In the Realm of Bose: The Diary of a Teenager's Brief Sojourn at Bose Institute}. Bose Institute, Kolkata. ISBN 978-93-83170-03-6. \href{https://jcbose.ac.in/publication}{Publisher}.\\\emph{Contribution: Sole author; carried out the work independently. Editorial credit: Gautam Basu, Bose Institute.}
+\end{enumerate}
+\section*{Software}
+\textbf{\href{https://ler.hemantaph.com/}{ler}: lead developer, project maintainer and leader.} Gravitational-wave population and strong-lensing-rate simulation; maintained code, documentation, and user support. Paper: item 2. Documentation: \href{https://ler.hemantaph.com/}{ler.hemantaph.com}.
+
+\textbf{\href{https://gwsnr.hemantaph.com/}{gwsnr}: lead developer, project maintainer and leader.} Efficient SNR and detection-probability calculations; maintained code and documentation. Preprint: item 14. Documentation: \href{https://gwsnr.hemantaph.com/}{gwsnr.hemantaph.com}.
+
+\textbf{\href{https://arxiv.org/abs/2508.12697}{TaylorF2Ecck}: co-developer; contributed to implementation.} Analytic, frequency-domain post-Newtonian extension of \texttt{TaylorF2} for eccentric inspirals, implemented in a \texttt{LALSuite} fork; validation and Bayesian analysis: item 1.
+
+\end{document}
